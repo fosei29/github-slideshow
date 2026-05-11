@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "AgriVoice",
+    "slug": "agrivoice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2d6a4f"
+    },
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/audio/**",
+      "ml/models/**",
+      "data/**"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.agrivoice.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "AgriVoice needs microphone access for voice commands.",
+        "NSCameraUsageDescription": "AgriVoice needs camera access to identify pests and diseases.",
+        "NSSpeechRecognitionUsageDescription": "AgriVoice uses speech recognition for voice input."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2d6a4f"
+      },
+      "package": "com.agrivoice.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "FOREGROUND_SERVICE"
+      ],
+      "minSdkVersion": 21
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-speech",
+      "expo-sqlite",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow AgriVoice to access your camera."
+        }
+      ],
+      [
+        "expo-background-fetch",
+        {
+          "statusBarColor": "#2d6a4f"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "scheme": "agrivoice"
+  }
+}

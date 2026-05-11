@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fall_armyworm",
+    "crop": "maize",
+    "name_en": "Fall Armyworm",
+    "name_sw": "Viwavi vya Jeshi",
+    "name_ha": "Tsutsayen Soja",
+    "symptoms_en": "Ragged holes in leaves. Small brown droppings (frass) visible at leaf base. Young larvae are green; older ones are dark with white stripes. Severe infestations can eat entire whorl of young maize within 24 hours.",
+    "symptoms_sw": "Mashimo ya kung'oa majani. Kinyesi kidogo cha kahawia (frass) kinaonekana kwenye msingi wa jani. Mabuu madogo ni ya kijani; ya zamani ni nyeusi yenye mistari nyeupe. Msambao mkali unaweza kula nzima ya kipenyo cha mahindi mdogo ndani ya masaa 24.",
+    "symptoms_ha": "Ramuka masu girgije a cikin ganye. Ƙaramin kaya mai ruwan kasa (frass) yana bayyane a gindin ganye. Ƙwayayen matasa suna kore; tsofaffi suna baƙi tare da ratsin fari. Infestations mai tsanani na iya cin dukkan ganyen matasa a cikin sa'o'i 24.",
+    "treatment_en": "Spray with recommended pesticide (e.g., Emamectin benzoate or Chlorpyrifos) early in the morning or late afternoon. Target the whorl (center) of the plant. For small farms, you can also use a mixture of ash and sand poured into the whorl. Early detection is key — check fields weekly.",
+    "treatment_sw": "Nyunyizia dawa ya kuua wadudu inayopendekezwa (mfano, Emamectin benzoate au Chlorpyrifos) mapema asubuhi au jioni. Lenga kipenyo (katikati) cha mmea. Kwa mashamba madogo, unaweza pia kutumia mchanganyiko wa majivu na mchanga uliyomwagwa kwenye kipenyo. Ugunduzi wa mapema ni muhimu — angalia mashamba kila wiki.",
+    "treatment_ha": "Fesa da maganin ƙwari da aka ba da shawarar (misali, Emamectin benzoate ko Chlorpyrifos) da safe ko magariba. Kai hari ga whorl (tsakiya) na tsiran. Don ƙananan gonaki, kuma za a iya amfani da cakuda tokar wuta da yashi da aka zuba cikin whorl. Gano da wuri shine mabuɗin — duba gonaki a kowane mako.",
+    "modelLabel": "fall_armyworm",
+    "imageRef": "assets/pests/fall_armyworm.jpg"
+  },
+  {
+    "id": "stem_borer",
+    "crop": "maize",
+    "name_en": "Maize Stem Borer",
+    "name_sw": "Borer wa Shina la Mahindi",
+    "name_ha": "Bore na Kafar Masara",
+    "symptoms_en": "Small round holes in the stem. Sawdust-like frass near entry holes. Dead heart symptom — center leaves die and turn yellow. Weakened stalks that break easily. Larvae found inside the stem when cut open.",
+    "symptoms_sw": "Mashimo madogo ya mviringo kwenye shina. Frass inayofanana na vumbi la mti karibu na mashimo ya kuingia. Dalili ya moyo uliokufa — majani ya katikati yanakufa na kugeuka njano. Mashina dhaifu yanayovunjika kwa urahisi. Mabuu hupatikana ndani ya shina inapopasuka.",
+    "symptoms_ha": "Ƙananan ramukan da'ira a cikin kafar. Frass mai kama da ƙurar itace kusa da ramukan shiga. Alamar zuciya ta mutu — ganyen tsakiya sun mutu kuma sun zama rawaya. Karar da suka raunana waɗanda ke karye da sauƙi. Ana samun ƙwayayen a cikin kafar a lokacin yanke.",
+    "treatment_en": "Apply granular insecticide (carbofuran or lambda-cyhalothrin granules) into the plant whorl at 3 and 6 weeks after planting. Biological control with Trichogramma egg parasitoid is effective on small farms. Remove and destroy infested stalks. Plant early in the season to escape peak borer populations.",
+    "treatment_sw": "Tumia dawa ya wadudu ya punjio (carbofuran au lambda-cyhalothrin punjio) ndani ya kipenyo cha mmea wiki 3 na 6 baada ya kupanda. Udhibiti wa kibiolojia na Trichogramma egg parasitoid unafaa kwa mashamba madogo. Ondoa na uharibu mashina yaliyoathirika. Panda mapema katika msimu ili kuepuka idadi ya kilele cha borer.",
+    "treatment_ha": "Saka maganin ƙwari mai granule (carbofuran ko lambda-cyhalothrin granules) cikin whorl na tsiran a makonni 3 da 6 bayan shuka. Ikon halitta tare da Trichogramma egg parasitoid yana tasiri a ƙananan gonaki. Cire kuma lalata karar da aka shafa. Shuka da wuri a cikin kakar don guje wa yawan bore na kololuwar.",
+    "modelLabel": "stem_borer",
+    "imageRef": "assets/pests/stem_borer.jpg"
+  },
+  {
+    "id": "maize_streak_virus",
+    "crop": "maize",
+    "name_en": "Maize Streak Virus",
+    "name_sw": "Virusi ya Milia ya Mahindi",
+    "name_ha": "Cutar Layin Masara",
+    "symptoms_en": "Yellow and white streaks along the leaf veins. Leaves have narrow broken stripes. Severely infected plants are stunted and produce no grain. Spread by leafhoppers (small jumping insects). Symptoms appear 2 to 3 weeks after infection.",
+    "symptoms_sw": "Milia ya njano na nyeupe kando ya mishipa ya majani. Majani yana na mistari nyembamba iliyovunjika. Mimea iliyoathirika vibaya hukuwa ndogo na haitoi nafaka. Husambazwa na leafhoppers (wadudu wadogo wanaoruka). Dalili zinaonekana wiki 2 hadi 3 baada ya kuambukizwa.",
+    "symptoms_ha": "Ratin rawaya da fari tare da jijiyoyin ganye. Ganye yana da ratan bakin da aka karye. Tsire-tsire da aka kamu da su sosai suna rage girma kuma ba sa samar da hatsi. Ana yaɗawa ta hanyar leafhoppers (ƙananan kwari masu tsalle). Alamun suna bayyana makonni 2 zuwa 3 bayan kamuwa.",
+    "treatment_en": "There is no cure for streak virus. Prevention is key. Use resistant varieties (e.g., DTMA varieties). Control leafhoppers with insecticide spray. Remove and burn infected plants immediately. Plant as early as possible to avoid peak leafhopper season. Keep fields weed-free as weeds harbor leafhoppers.",
+    "treatment_sw": "Hakuna tiba ya virusi ya milia. Kuzuia ni muhimu. Tumia aina zinazostahimili (mfano, aina za DTMA). Dhibiti leafhoppers kwa dawa ya kunyunyizia. Ondoa na uchome mimea iliyoathirika mara moja. Panda mapema iwezekanavyo ili kuepuka msimu wa kilele wa leafhopper. Weka mashamba bila magugu kwani magugu huhifadhi leafhoppers.",
+    "treatment_ha": "Babu magani don cutar layin. Rigakafi shine mabuɗin. Yi amfani da iri masu jurewa (misali, iri na DTMA). Sarrafa leafhoppers da feshin maganin ƙwari. Cire kuma ƙone tsire-tsire da aka kamu da su nan da nan. Shuka da wuri idan zai yiwu don guje wa kakar kololuwar leafhopper. Kiyaye gonaki babu ciyawa tun da ciyawa suna ɗaukar leafhoppers.",
+    "modelLabel": "maize_streak_virus",
+    "imageRef": "assets/pests/maize_streak_virus.jpg"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pineapple_land_prep",
+    "crop": "pineapple",
+    "stage": "land_prep",
+    "advice_en": "Choose a well-drained site with full sun. Pineapple cannot tolerate waterlogging — it will rot. Plow to 30 centimeters depth. Form raised beds or ridges 30 centimeters high if your land is flat or slightly sloped. Apply 2 tonnes of compost per acre before forming beds. Soil pH should be 4.5 to 6.0 — test your soil if possible.",
+    "advice_sw": "Chagua eneo lenye mifereji mizuri na jua kamili. Nanasi haliwezi kustahimili maji yaliyotuama — litaoza. Lima hadi kina cha sentimita 30. Tengeneza vitanda vilivyoinuliwa au matuta ya urefu wa sentimita 30 ikiwa ardhi yako ni tambarare au ina mteremko kidogo. Weka tani 2 za mboji kwa ekari kabla ya kutengeneza vitanda. pH ya udongo inapaswa kuwa 4.5 hadi 6.0 — jaribu udongo wako ikiwezekana.",
+    "advice_ha": "Zaɓi wurin da yake da ruwa mai kyau da hasken rana cikakke. Anabas ba zai iya jurewa da ruwa tsaye ba — zai ruɓe. Noma zuwa zurfin santimita 30. Ƙirƙira gadaje da aka ɗaukaka ko tarin su santimita 30 tsawo idan ƙasarku tana kwance ko ɗan gangare. Saka ton 2 na kwamfost a kowace eka kafin ƙirƙira gadaje. pH na ƙasa ya kamata ya zama 4.5 zuwa 6.0 — gwada ƙasarku idan zai yiwu.",
+    "audio_url_en": "assets/audio/pineapple_land_prep_en.mp3",
+    "audio_url_sw": "assets/audio/pineapple_land_prep_sw.mp3",
+    "audio_url_ha": "assets/audio/pineapple_land_prep_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Compost or well-rotted manure",
+        "quantity": "2 tonnes per acre",
+        "timing": "Before bed formation",
+        "notes_en": "Pineapple needs well-aerated soil. Avoid fresh manure which can burn roots.",
+        "notes_sw": "Nanasi inahitaji udongo wenye hewa nzuri. Epuka samadi safi ambayo inaweza kuchoma mizizi.",
+        "notes_ha": "Anabas yana buƙatar ƙasa mai iska mai kyau. Guje taki mai laushi wanda zai iya ƙone tushen."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "pineapple_planting",
+    "crop": "pineapple",
+    "stage": "planting",
+    "advice_en": "Plant pineapple using suckers, slips, or crowns. Suckers from the base grow fastest. Space plants 30 centimeters apart within rows, and 60 centimeters between rows. Plant the sucker 10 centimeters deep. Remove dead leaves from the sucker before planting. The crown of the mother fruit can also be used — dry it for 3 days before planting.",
+    "advice_sw": "Panda nanasi ukitumia suckers, slips, au taji. Suckers kutoka msingi wa mmea hukua haraka zaidi. Acha nafasi ya sentimita 30 kati ya mimea ndani ya mistari, na sentimita 60 kati ya mistari. Panda sucker kwa kina cha sentimita 10. Ondoa majani yaliyokufa kutoka kwenye sucker kabla ya kupanda. Taji ya tunda la mama pia inaweza kutumika — ikaushe kwa siku 3 kabla ya kupanda.",
+    "advice_ha": "Shuka anabas ta amfani da suckers, slips, ko rawanin. Suckers daga gindin suna girma da sauri. Bar sarari santimita 30 tsakanin tsire-tsire a cikin layuka, da santimita 60 tsakanin layuka. Shuka sucker zuwa zurfin santimita 10. Cire ganyen da suka mutu daga sucker kafin shuka. Rawanin 'ya'yan uwar kuma ana iya amfani da su — bushe shi na kwanaki 3 kafin shuka.",
+    "audio_url_en": "assets/audio/pineapple_planting_en.mp3",
+    "audio_url_sw": "assets/audio/pineapple_planting_sw.mp3",
+    "audio_url_ha": "assets/audio/pineapple_planting_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "NPK 15-15-15 fertilizer",
+        "quantity": "30 g per plant at planting",
+        "timing": "At planting — place 10cm from plant base",
+        "notes_en": "Pineapple is sensitive to over-fertilizing. Less is more at this stage.",
+        "notes_sw": "Nanasi ni nyeti kwa mbolea nyingi. Kidogo ni bora zaidi katika hatua hii.",
+        "notes_ha": "Anabas yana da hankali ga yawan taki. Ƙasa ya fi kyau a wannan mataki."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "pineapple_vegetative",
+    "crop": "pineapple",
+    "stage": "vegetative",
+    "advice_en": "Pineapple grows slowly in the first 6 months. Weed every 2 months. Do not let weeds shade the plant. Apply NPK fertilizer every 2 months, 50 grams per plant. You can also apply liquid fertilizer by pouring it into the center cup of the plant. Keep the base free of dead leaves to prevent mealybug buildup.",
+    "advice_sw": "Nanasi hukua polepole katika miezi 6 ya kwanza. Palilia kila miezi 2. Usikubali magugu kutoa kivuli kwa mmea. Weka mbolea ya NPK kila miezi 2, gramu 50 kwa kila mmea. Unaweza pia kutumia mbolea ya kioevu kwa kuimwaga kwenye kikombe cha katikati cha mmea. Weka msingi huru na majani yaliyokufa kuzuia makusanyiko ya mealybug.",
+    "advice_ha": "Anabas yana girma a hankali a cikin watanni 6 na farko. Cire ciyawa kowane watanni 2. Kada a bar ciyawa su hifce tsiran. Saka taki NPK kowane watanni 2, gram 50 ga kowace shuka. Kuma za ka iya saka taki mai ruwa ta zuba shi a cikin kwanon tsakiyar tsiran. Kiyaye gindin ba tare da ganyen da suka mutu ba don hana tarin mealybug.",
+    "audio_url_en": "assets/audio/pineapple_vegetative_en.mp3",
+    "audio_url_sw": "assets/audio/pineapple_vegetative_sw.mp3",
+    "audio_url_ha": "assets/audio/pineapple_vegetative_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "NPK 15-15-15",
+        "quantity": "50 g per plant every 2 months",
+        "timing": "Every 2 months during vegetative phase",
+        "notes_en": "Foliar spray with urea (2%) can supplement soil application.",
+        "notes_sw": "Kunyunyizia majani kwa urea (asilimia 2) kunaweza kusaidia matumizi ya udongo.",
+        "notes_ha": "Feshin ganye tare da urea (kashi 2%) zai iya ƙara aikace-aikacen ƙasa."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "pineapple_flowering",
+    "crop": "pineapple",
+    "stage": "flowering",
+    "advice_en": "Pineapple naturally flowers after 12 to 18 months. To force early flowering, apply ethylene at night. You can make a simple ethylene treatment using calcium carbide: dissolve 2 grams in 1 liter of water and pour 50 milliliters into the center cup of each plant at night. Do this twice, one week apart. Flowering will start in 30 to 45 days.",
+    "advice_sw": "Nanasi huchanua kwa kawaida baada ya miezi 12 hadi 18. Ili kulazimisha maua ya mapema, tumia ethylene usiku. Unaweza kutengeneza matibabu rahisi ya ethylene kwa kutumia kabidi ya kalsiamu: yeyusha gramu 2 katika lita 1 ya maji na mimina millilita 50 kwenye kikombe cha katikati cha kila mmea usiku. Fanya hivi mara mbili, wiki moja kati ya matibabu. Maua yataanza katika siku 30 hadi 45.",
+    "advice_ha": "Anabas yana furawa ta halitta bayan watanni 12 zuwa 18. Don tilasta fure da wuri, saka ethylene da dare. Za ka iya yin sauki na maganin ethylene ta amfani da calcium carbide: narkar da gram 2 a cikin lita 1 na ruwa kuma zuba milili 50 cikin kwanon tsakiyar kowace shuka da dare. Yi wannan sau biyu, mako ɗaya tsakanin jiyya. Fure zai fara a cikin kwanaki 30 zuwa 45.",
+    "audio_url_en": "assets/audio/pineapple_flowering_en.mp3",
+    "audio_url_sw": "assets/audio/pineapple_flowering_sw.mp3",
+    "audio_url_ha": "assets/audio/pineapple_flowering_ha.mp3",
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "pineapple_harvest",
+    "crop": "pineapple",
+    "stage": "harvest",
+    "advice_en": "Pineapple is ready to harvest 5 to 6 months after flowering. Check color — harvest when the skin turns from green to yellow at the base, about one-quarter yellow. A ripe pineapple has a sweet smell and sounds hollow when tapped. Cut with a sharp knife, leaving 2 centimeters of stalk. Handle with care — bruised fruit rots quickly. Sell or process within 2 days for best price.",
+    "advice_sw": "Nanasi iko tayari kuvunwa miezi 5 hadi 6 baada ya kutoa maua. Angalia rangi — vuna wakati ngozi inapogeuka kutoka kijani hadi njano chini ya tunda, takriban robo moja ya njano. Nanasi iliyoiva ina harufu tamu na inasikika tupu inapopigwa. Kata kwa kisu kali, ukiacha sentimita 2 za shina. Shughulikia kwa uangalifu — tunda lililoumia linaoza haraka. Uza au usindike ndani ya siku 2 kwa bei bora.",
+    "advice_ha": "Anabas yana shirye don girbi watanni 5 zuwa 6 bayan fure. Duba launi — yi girbi lokacin da fata ta juya daga kore zuwa rawaya a gindin 'ya'yan, kimanin kwata ɗaya rawaya. Anabas da ya nuna yana da ƙanshi mai daɗi kuma yana sauti wofi lokacin da aka taci. Yanke da wuƙa mai kaifi, barin santimita 2 na karamar rassa. Yi taka tsantsan — 'ya'yan da aka ji rauni yana ruɓe da sauri. Sayar ko sarrafa a cikin kwanaki 2 don mafi kyawun farashi.",
+    "audio_url_en": "assets/audio/pineapple_harvest_en.mp3",
+    "audio_url_sw": "assets/audio/pineapple_harvest_sw.mp3",
+    "audio_url_ha": "assets/audio/pineapple_harvest_ha.mp3",
+    "updatedAt": "2024-01-15"
+  }
+]

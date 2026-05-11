@@ -1,0 +1,123 @@
+[
+  {
+    "id": "maize_land_prep",
+    "crop": "maize",
+    "stage": "land_prep",
+    "advice_en": "Clear your field of all weeds and old crop residues. Plow the soil 20 to 30 centimeters deep. If your soil is heavy clay, add compost or dry manure to improve drainage. Aim to finish land preparation 2 weeks before planting. Good soil preparation is the most important step for a good harvest.",
+    "advice_sw": "Safisha shamba lako na magugu yote na mabaki ya mazao ya zamani. Lima udongo kwa kina cha sentimita 20 hadi 30. Ikiwa udongo wako ni mzito, ongeza mboji au samadi kavu kuboresha mifereji. Jaribu kumaliza maandalizi ya ardhi wiki 2 kabla ya kupanda. Maandalizi mazuri ya ardhi ndiyo hatua muhimu zaidi kwa mavuno mazuri.",
+    "advice_ha": "Tsabtace gonaki daga duk ciyawa da ragowar tsoffin amfanin gona. Noma ƙasa zuwa zurfin santimita 20 zuwa 30. Idan ƙasarku tana da yumbu mai nauyi, ƙara kwamfost ko taki don inganta ruwa. Yi ƙoƙarin kammala shirya ƙasa makonni 2 kafin shuka. Shirya ƙasa sosai shine mafi muhimmancin matakin don amfanin gona mai kyau.",
+    "audio_url_en": "assets/audio/maize_land_prep_en.mp3",
+    "audio_url_sw": "assets/audio/maize_land_prep_sw.mp3",
+    "audio_url_ha": "assets/audio/maize_land_prep_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Compost or farm yard manure",
+        "quantity": "2 tonnes per acre",
+        "timing": "During plowing",
+        "notes_en": "Apply before final harrowing to incorporate well.",
+        "notes_sw": "Weka kabla ya kulima kwa mara ya mwisho ili kuchanganya vizuri.",
+        "notes_ha": "Saka kafin noman ƙarshe don haɗawa sosai."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "maize_planting",
+    "crop": "maize",
+    "stage": "planting",
+    "advice_en": "Plant maize seeds 5 centimeters deep. Space rows 75 centimeters apart. Space seeds 25 centimeters apart within the row. Put 2 seeds per hole. After germination, remove the weaker seedling and keep one strong plant per hole. Plant at the start of rains for best results.",
+    "advice_sw": "Panda mbegu za mahindi kwa kina cha sentimita 5. Acha nafasi ya sentimita 75 kati ya mistari. Acha nafasi ya sentimita 25 kati ya mbegu kwenye mstari. Weka mbegu 2 kwa kila shimo. Baada ya kuota, ondoa mche dhaifu na uhifadhi mmea mmoja imara kwa kila shimo. Panda mwanzoni mwa mvua kwa matokeo bora.",
+    "advice_ha": "Shuka iri masara zuwa zurfin santimita 5. Bar sarari santimita 75 tsakanin layuka. Bar sarari santimita 25 tsakanin iri a cikin laiyin. Saka iri 2 a kowace rami. Bayan tsirowa, cire noman da ya raunana kuma kiyaye tsiro ɗaya mai ƙarfi a kowace rami. Shuka a farkon damina don mafi kyawun sakamako.",
+    "audio_url_en": "assets/audio/maize_planting_en.mp3",
+    "audio_url_sw": "assets/audio/maize_planting_sw.mp3",
+    "audio_url_ha": "assets/audio/maize_planting_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "DAP fertilizer (Diammonium Phosphate)",
+        "quantity": "50 kg per acre",
+        "timing": "At planting — place in the hole before seeding",
+        "notes_en": "Do not let fertilizer touch the seed directly. Keep 5cm apart.",
+        "notes_sw": "Usiiruhusu mbolea kugusa mbegu moja kwa moja. Weka umbali wa sentimita 5.",
+        "notes_ha": "Kada taki ya taɓa iri kai tsaye. Kiyaye nisan santimita 5."
+      },
+      {
+        "input": "Certified maize seed (OPV or hybrid)",
+        "quantity": "8–10 kg per acre",
+        "timing": "At planting",
+        "notes_en": "Use drought-tolerant varieties like DTMA or H614D where possible.",
+        "notes_sw": "Tumia aina zinazostahimili ukame kama DTMA au H614D inapowezekana.",
+        "notes_ha": "Yi amfani da nau'in da ke jurewa fari kamar DTMA ko H614D idan zai yiwu."
+      }
+    ],
+    "weatherTrigger": {
+      "condition": "dry",
+      "modifiedAdvice_en": "It is dry. If you must plant, water the hole before placing the seed. Consider waiting for rain if possible.",
+      "modifiedAdvice_sw": "Kuna ukame. Ikiwa lazima upande, mwagilia shimo kabla ya kuweka mbegu. Fikiria kusubiri mvua ikiwezekana.",
+      "modifiedAdvice_ha": "Yana bushe. Idan dole ne ka shuka, yi ruwa cikin rami kafin saka iri. Yi la'akari da jiran ruwan sama idan zai yiwu."
+    },
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "maize_vegetative",
+    "crop": "maize",
+    "stage": "vegetative",
+    "advice_en": "Your maize is growing. Apply top-dress fertilizer when maize is knee-high, about 3 to 4 weeks after planting. Use CAN or urea, 50 kilograms per acre. Weed your field within the first 30 days. Weeds after 30 days cause 40 percent yield loss. Keep rows free of weeds at all times.",
+    "advice_sw": "Mahindi yako yanakua. Weka mbolea ya juu wakati mahindi yako yanafikia urefu wa magoti, takriban wiki 3 hadi 4 baada ya kupanda. Tumia CAN au urea, kilo 50 kwa ekari. Palilia shamba lako ndani ya siku 30 za kwanza. Magugu baada ya siku 30 husababisha hasara ya asilimia 40 ya mazao. Hakikisha mistari hayana magugu wakati wote.",
+    "advice_ha": "Masarar ku yana girma. Ka saka taki na sama lokacin da masara ya kai tsayin gwiwa, kusan makonni 3 zuwa 4 bayan shuka. Yi amfani da CAN ko urea, kilogram 50 a kowace eka. Cire ciyawa a gonar ku a cikin kwanaki 30 na farko. Ciyawa bayan kwanaki 30 tana haddasa asarar kashi 40 cikin ɗari na amfanin gona. Kiyaye layuka babu ciyawa a koyaushe.",
+    "audio_url_en": "assets/audio/maize_vegetative_en.mp3",
+    "audio_url_sw": "assets/audio/maize_vegetative_sw.mp3",
+    "audio_url_ha": "assets/audio/maize_vegetative_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "CAN (Calcium Ammonium Nitrate) or Urea",
+        "quantity": "50 kg per acre",
+        "timing": "3–4 weeks after planting (knee-high stage)",
+        "notes_en": "Apply in a ring around each plant, 10cm from stem. Cover with soil.",
+        "notes_sw": "Weka kwenye mzunguko kwa kila mmea, sentimita 10 kutoka shina. Funika na udongo.",
+        "notes_ha": "Saka a zoben kusa da kowace shuka, santimita 10 daga gindin. Rufe da ƙasa."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "maize_flowering",
+    "crop": "maize",
+    "stage": "flowering",
+    "advice_en": "Your maize is flowering. This is the most critical period — do not allow drought stress now. If rain is delayed by more than 2 weeks, irrigate if possible. Do not apply any nitrogen fertilizer at this stage. Watch for stem borer holes or damaged tassels. Remove affected plants to stop spread.",
+    "advice_sw": "Mahindi yako yanachanua. Hii ni kipindi muhimu zaidi — usikubali ukame sasa. Ikiwa mvua imechelewa kwa zaidi ya wiki 2, mwagilia ikiwezekana. Usitumie mbolea yoyote ya nitrojeni katika hatua hii. Angalia mashimo ya borer wa shina au masuke yaliyoharibiwa. Ondoa mimea iliyoathirika kuzuia kuenea.",
+    "advice_sw": "Mahindi yako yanachanua. Hii ni kipindi muhimu zaidi — usikubali ukame sasa. Ikiwa mvua imechelewa kwa zaidi ya wiki 2, mwagilia ikiwezekana. Usitumie mbolea yoyote ya nitrojeni katika hatua hii. Angalia mashimo ya borer wa shina au masuke yaliyoharibiwa. Ondoa mimea iliyoathirika kuzuia kuenea.",
+    "advice_ha": "Masarar ku yana fure. Wannan shine mafi mahimmancin lokaci — kar a bar shi ya bushe yanzu. Idan ruwan sama ya jinkirta fiye da makonni 2, ba da ruwa idan zai yiwu. Kada ka saka wani taki mai nitrogen a wannan mataki. Lura da ramukan bore na kara ko burin da aka lalata. Cire tsire-tsire da abin ya shafa don hana yaɗuwa.",
+    "audio_url_en": "assets/audio/maize_flowering_en.mp3",
+    "audio_url_sw": "assets/audio/maize_flowering_sw.mp3",
+    "audio_url_ha": "assets/audio/maize_flowering_ha.mp3",
+    "weatherTrigger": {
+      "condition": "dry",
+      "modifiedAdvice_en": "Rain is low during flowering. This is critical! Try to water your plants if you have any water source. Even one good watering can save your crop at this stage.",
+      "modifiedAdvice_sw": "Mvua ni kidogo wakati wa kutoa maua. Hii ni muhimu! Jaribu kumwagilia mimea yako ikiwa una chanzo chochote cha maji. Hata mwagiliaji mmoja mzuri unaweza kuokoa zao lako katika hatua hii.",
+      "modifiedAdvice_ha": "Ruwan sama ba shi da yawa a lokacin fure. Wannan yana da matukar muhimmanci! Gwada ban ruwa tsire-tsire naka idan kana da wani tushen ruwa. Ko ban ruwa ɗaya mai kyau zai iya ceton amfanin gonar ka a wannan mataki."
+    },
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "maize_harvest",
+    "crop": "maize",
+    "stage": "harvest",
+    "advice_en": "Maize is ready to harvest when the husks turn brown and dry, and the silks are dark. Test a kernel — press with your nail. If it is hard and does not dent easily, it is ready. Harvest by hand or machine. Dry cobs in the sun for 2 weeks before shelling. Store in a dry, cool place with moisture below 13 percent to prevent aflatoxin mold.",
+    "advice_sw": "Mahindi yako yako tayari kuvunwa wakati maganda yanapogeuka kahawia na kukauka, na nyuzi ni nyeusi. Jaribu punje — bonyeza kwa ukucha wako. Ikiwa ni gumu na haibonyezi kwa urahisi, iko tayari. Vuna kwa mkono au mashine. Kaush masuke juani kwa wiki 2 kabla ya kupiga. Hifadhi mahali pakavu, pazuri na unyevu chini ya asilimia 13 kuzuia kuvu ya aflatoxin.",
+    "advice_ha": "Masara tana shirye don girbi lokacin da husumai suka zama launin kasa da bushe, kuma siliki suna baƙi. Gwada irin guda ɗaya — matsa da farcenka. Idan yana da ƙarfi kuma ba ya sauƙin matsi, yana shirye. Yi girbi da hannu ko injin. Bushe ganyayen a rana na makonni 2 kafin buɗe. Ajiye a wuri mai bushe da sanyi tare da danwilki ƙasa da kashi 13 cikin ɗari don hana fungus na aflatoxin.",
+    "audio_url_en": "assets/audio/maize_harvest_en.mp3",
+    "audio_url_sw": "assets/audio/maize_harvest_sw.mp3",
+    "audio_url_ha": "assets/audio/maize_harvest_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Hermetic storage bags (PICS or GrainPro)",
+        "quantity": "1 bag per 100 kg grain",
+        "timing": "After shelling and drying",
+        "notes_en": "Hermetic bags prevent weevils and aflatoxin without chemicals.",
+        "notes_sw": "Mifuko ya hermetic inazuia wadudu na aflatoxin bila kemikali.",
+        "notes_ha": "Jakunkuna masu rufe suna hana su-su da aflatoxin ba tare da sinadarai ba."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  }
+]
