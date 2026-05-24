@@ -11,8 +11,10 @@ import {
   TouchableOpacity,
   StatusBar,
   Switch,
+  Alert,
 } from "react-native";
 import { useSettingsStore } from "@/store/settingsStore";
+import { openUSSDDialer, USSD_MENU } from "@/services/USSDService";
 import { useCropStore } from "@/store/cropStore";
 import { useOfflineSync } from "@/hooks/useOfflineSync";
 import { LanguagePicker } from "@/components/LanguagePicker";
@@ -239,6 +241,52 @@ export default function SettingsScreen() {
                 : "No crop selected"}
             </Text>
           )}
+        </View>
+
+        {/* ── USSD / Feature phone ─────────────────────────────────────── */}
+        {sectionTitle(
+          language === "sw" ? "Simu ya Kawaida" : language === "ha" ? "Wayar Al'ada" : "Feature Phone / USSD"
+        )}
+        <View
+          style={{
+            backgroundColor: "#fff",
+            borderRadius: 12,
+            padding: 16,
+            marginBottom: 6,
+          }}
+        >
+          <Text style={{ fontSize: 15, color: "#6b7280", marginBottom: 12, lineHeight: 22 }}>
+            {language === "sw"
+              ? "Piga simu ya USSD kwenye simu yoyote ili kupata ushauri bila data ya intaneti."
+              : language === "ha"
+              ? "Yi kiran USSD a kowane wayar don samun shawarar ba tare da bayanan intanet ba."
+              : "Dial USSD on any phone to get advice without internet data."}
+          </Text>
+          <TouchableOpacity
+            onPress={async () => {
+              const opened = await openUSSDDialer(USSD_MENU.mainCode);
+              if (!opened) {
+                Alert.alert(
+                  "",
+                  `Dial ${USSD_MENU.mainCode} on your phone to access AgriVoice without internet.`
+                );
+              }
+            }}
+            style={{
+              backgroundColor: "#1b5e3b",
+              borderRadius: 10,
+              paddingVertical: 14,
+              alignItems: "center",
+              flexDirection: "row",
+              justifyContent: "center",
+              gap: 8,
+            }}
+          >
+            <Text style={{ fontSize: 22 }}>📞</Text>
+            <Text style={{ fontSize: 17, fontWeight: "700", color: "#fff" }}>
+              {USSD_MENU.mainCode}
+            </Text>
+          </TouchableOpacity>
         </View>
 
         {/* ── About ─────────────────────────────────────────────────────── */}

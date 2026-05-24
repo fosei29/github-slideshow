@@ -1,0 +1,120 @@
+[
+  {
+    "id": "rice_land_prep",
+    "crop": "rice",
+    "stage": "land_prep",
+    "advice_en": "Rice needs flat, level land with good water retention. Plow your field 20 to 25 centimeters deep. For paddy (wet) rice, build small earth bunds around the field to hold 5 to 10 centimeters of water. Level the field as flat as possible so water covers evenly. For upland rice, plow on a gentle slope and prepare ridges to control runoff. Add compost or manure 2 weeks before planting.",
+    "advice_sw": "Mpunga unahitaji ardhi tambarare, sawa na uhifadhi mzuri wa maji. Lima shamba lako kwa kina cha sentimita 20 hadi 25. Kwa mpunga wa mafuriko (mvua nyingi), jenga mabwawa madogo ya udongo kuzunguka shamba kushikilia sentimita 5 hadi 10 za maji. Sawazisha shamba iwe tambarare iwezekanavyo ili maji yashike kwa usawa. Kwa mpunga wa ardhini, lima kwenye mteremko laini na tengeneza matuta kudhibiti mtiririko wa maji. Ongeza mboji au samadi wiki 2 kabla ya kupanda.",
+    "advice_ha": "Shinkafa tana buƙatar ƙasa mai lebur tare da kyakkyawan riƙe ruwa. Noma gonarka zuwa zurfin santimita 20 zuwa 25. Don shinkafar ruwa (mai jika), gina ƙananan madatsar ƙasa kusa da gonarka don riƙe santimita 5 zuwa 10 na ruwa. Daidaita gonarka ya zama mai lebur gwargwadon yiwuwa domin ruwa ya rufe daidai. Don shinkafar bene, noma akan gangaren da ba shi da tsawa kuma shirya tarin ƙasa don sarrafa guduwar ruwa. Ƙara kwamfost ko taki makonni 2 kafin shuka.",
+    "audio_url_en": "assets/audio/rice_land_prep_en.mp3",
+    "audio_url_sw": "assets/audio/rice_land_prep_sw.mp3",
+    "audio_url_ha": "assets/audio/rice_land_prep_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Compost or farm yard manure",
+        "quantity": "2–3 tonnes per acre",
+        "timing": "During final plowing — 2 weeks before planting",
+        "notes_en": "Manure improves water retention in sandy soils and drainage in heavy clay soils.",
+        "notes_sw": "Samadi inaboresha uhifadhi wa maji kwenye udongo wa mchanga na mifereji kwenye udongo mzito wa udongo.",
+        "notes_ha": "Taki yana inganta riƙe ruwa a cikin ƙasar yashi da kuma fitar ruwa a cikin yumbu mai nauyi."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "rice_planting",
+    "crop": "rice",
+    "stage": "planting",
+    "advice_en": "You can plant rice by direct seeding or transplanting seedlings. For transplanting: grow seedlings in a nursery bed for 20 to 25 days, then transplant when they are 15 to 20 centimeters tall. Space rows 20 centimeters apart and plant 2 to 3 seedlings per hill, 15 centimeters between hills. Plant at 2 to 3 centimeters depth. For direct seeding: broadcast 40 kilograms of seed per acre on a puddled, flooded field. Flood to 3 centimeters immediately after planting.",
+    "advice_sw": "Unaweza kupanda mpunga kwa mbegu moja kwa moja au kupandikiza miche. Kwa kupandikiza: kuza miche kwenye bustani ya nursery kwa siku 20 hadi 25, kisha pandikiza wanapofikia urefu wa sentimita 15 hadi 20. Acha nafasi ya sentimita 20 kati ya mistari na upande miche 2 hadi 3 kwa kila chungu, sentimita 15 kati ya vijiti. Panda kwa kina cha sentimita 2 hadi 3. Kwa mbegu moja kwa moja: tapanya kilo 40 za mbegu kwa ekari kwenye shamba lililolimwa na kufurika. Furika hadi sentimita 3 mara moja baada ya kupanda.",
+    "advice_ha": "Kuna iya shuka shinkafa ta hanyar shuka iri kai tsaye ko dasawa tsiraye. Don dasawa: noma tsiraye a gonar nursery na kwanaki 20 zuwa 25, sannan dasa lokacin da suka kai tsayin santimita 15 zuwa 20. Bar sarari santimita 20 tsakanin layuka kuma shuka tsiraye 2 zuwa 3 a kowace tukuici, santimita 15 tsakanin tukuici. Shuka zuwa zurfin santimita 2 zuwa 3. Don shuka iri kai tsaye: watse kilogram 40 na iri a kowace eka a gonarka da aka noma da kuma ruwa. Cika ruwa zuwa santimita 3 nan da nan bayan shuka.",
+    "audio_url_en": "assets/audio/rice_planting_en.mp3",
+    "audio_url_sw": "assets/audio/rice_planting_sw.mp3",
+    "audio_url_ha": "assets/audio/rice_planting_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "DAP fertilizer",
+        "quantity": "50 kg per acre",
+        "timing": "At transplanting or 1 week after direct seeding",
+        "notes_en": "Place between rows, not directly on seedlings. Cover with soil.",
+        "notes_sw": "Weka kati ya mistari, si moja kwa moja kwenye miche. Funika na udongo.",
+        "notes_ha": "Saka tsakanin layuka, ba kai tsaye a kan tsiraye ba. Rufe da ƙasa."
+      },
+      {
+        "input": "Certified rice seed (NERICA or IR varieties)",
+        "quantity": "40 kg per acre (broadcast) or 6 kg per acre (transplanting)",
+        "timing": "At planting",
+        "notes_en": "NERICA varieties tolerate drought and low soil fertility — good for upland rice.",
+        "notes_sw": "Aina za NERICA zinavumilia ukame na rutuba ndogo ya udongo — nzuri kwa mpunga wa ardhini.",
+        "notes_ha": "Nau'in NERICA suna jurewa fari da ƙarancin haihuwar ƙasa — mai kyau don shinkafar bene."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "rice_vegetative",
+    "crop": "rice",
+    "stage": "vegetative",
+    "advice_en": "Maintain a water depth of 5 to 10 centimeters throughout tillering. Do not let the field dry out during this stage. Apply top-dress nitrogen fertilizer at 4 to 5 weeks after transplanting. Use urea or CAN, 50 kilograms per acre. Weed within the first 3 weeks — rice is very sensitive to weed competition. Use a push weeder between rows or hand-weed carefully to avoid damaging roots.",
+    "advice_sw": "Weka kina cha maji cha sentimita 5 hadi 10 wakati wa utibaki. Usiruhusu shamba likauke wakati huu. Weka mbolea ya nitrojeni ya juu wiki 4 hadi 5 baada ya kupandikiza. Tumia urea au CAN, kilo 50 kwa ekari. Palilia ndani ya wiki 3 za kwanza — mpunga ni nyeti sana kwa ushindani wa magugu. Tumia jembe la kusukuma kati ya mistari au palilia kwa mkono kwa uangalifu ili kuepuka kuharibu mizizi.",
+    "advice_ha": "Kiyaye zurfin ruwa na santimita 5 zuwa 10 a lokacin tillering. Kada a bar gonarka ta bushe a wannan lokaci. Saka taki mai nitrogen na sama makonni 4 zuwa 5 bayan dasawa. Yi amfani da urea ko CAN, kilogram 50 a kowace eka. Cire ciyawa a cikin makonni 3 na farko — shinkafa tana da hankali sosai ga gasa da ciyawa. Yi amfani da mai cire ciyawa mai turawa tsakanin layuka ko cire ciyawa da hannu da hankali don guje wa lalata tushen.",
+    "audio_url_en": "assets/audio/rice_vegetative_en.mp3",
+    "audio_url_sw": "assets/audio/rice_vegetative_sw.mp3",
+    "audio_url_ha": "assets/audio/rice_vegetative_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Urea (46% N) or CAN",
+        "quantity": "50 kg per acre",
+        "timing": "4–5 weeks after transplanting (when tillering begins)",
+        "notes_en": "Apply on drained field (no standing water), then reflood after 24 hours.",
+        "notes_sw": "Weka kwenye shamba lililomwagwa (bila maji ya kusimama), kisha furika tena baada ya masaa 24.",
+        "notes_ha": "Saka a gonarka da aka zubar (babu ruwan da ke tsaye), sannan sake cika ruwa bayan sa'o'i 24."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "rice_flowering",
+    "crop": "rice",
+    "stage": "flowering",
+    "advice_en": "Rice is flowering — this is the heading and panicle initiation stage. Increase water depth to 10 to 15 centimeters during flowering. Never let the field dry out during flowering as this causes poor grain filling and empty grains. Apply potassium fertilizer if you have it — 25 kilograms of MOP per acre improves grain quality. Spray fungicide to prevent blast disease if leaves show grey lesions.",
+    "advice_sw": "Mpunga unachanua — hii ni hatua ya kutoa kichwa na kuanza kwa panikili. Ongeza kina cha maji hadi sentimita 10 hadi 15 wakati wa kutoa maua. Kamwe usikubali shamba likauke wakati wa kutoa maua kwani hii husababisha kujaa vibaya kwa nafaka na nafaka tupu. Weka mbolea ya potasiamu ikiwa una — kilo 25 za MOP kwa ekari huboresha ubora wa nafaka. Nyunyizia dawa ya kuua kuvu kuzuia ugonjwa wa blast ikiwa majani yanaonyesha vidonda vya kijivu.",
+    "advice_ha": "Shinkafa tana fure — wannan shine matakin jagoranci da fara panicle. Kara zurfin ruwa zuwa santimita 10 zuwa 15 a lokacin fure. Kada a bar gonarka ta bushe a lokacin fure tun da wannan yana haddasa cika hatsi mai muni da hatsi komai. Saka taki potassium idan kana da shi — kilogram 25 na MOP a kowace eka yana inganta ingancin hatsi. Fesa maganin fungi don hana cutar blast idan ganye suna nuna raunuka masu launin toka.",
+    "audio_url_en": "assets/audio/rice_flowering_en.mp3",
+    "audio_url_sw": "assets/audio/rice_flowering_sw.mp3",
+    "audio_url_ha": "assets/audio/rice_flowering_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "MOP (Muriate of Potash)",
+        "quantity": "25 kg per acre",
+        "timing": "At panicle initiation (about 45–55 days after transplanting)",
+        "notes_en": "Potassium strengthens stems, reduces lodging, and improves grain weight.",
+        "notes_sw": "Potasiamu huimarisha mashina, hupunguza kulala, na kuboresha uzito wa nafaka.",
+        "notes_ha": "Potassium yana ƙarfafa karar, yana rage kwancewa, kuma yana inganta nauyin hatsi."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "rice_harvest",
+    "crop": "rice",
+    "stage": "harvest",
+    "advice_en": "Rice is ready to harvest when 80 to 85 percent of the grains in the panicle have turned golden yellow. Drain the field 7 to 10 days before harvest to allow soil to firm up for walking and machines. Harvest by hand sickle or machine. Thresh immediately to prevent mold. Dry grain on clean tarpaulins or concrete to 14 percent moisture before milling or storage. Do not dry on soil — it causes contamination.",
+    "advice_sw": "Mpunga uko tayari kuvunwa wakati asilimia 80 hadi 85 ya nafaka kwenye panikili zimegeuka njano ya dhahabu. Mwaga shamba siku 7 hadi 10 kabla ya kuvuna ili kuruhusu udongo kuwa imara kwa kutembea na mashine. Vuna kwa mundu wa mkono au mashine. Piga mara moja kuzuia kuvu. Kaush nafaka kwenye matanda safi ya tarpaulin au zege hadi unyevu wa asilimia 14 kabla ya kusaga au kuhifadhi. Usikaushe kwenye udongo — husababisha uchafuzi.",
+    "advice_ha": "Shinkafa tana shirye don girbi lokacin da kashi 80 zuwa 85 cikin ɗari na hatsin da ke cikin panicle sun zama rawaya ta zinariya. Zubar da ruwa daga gonarka kwanaki 7 zuwa 10 kafin girbi don ba da damar ƙasa ta ƙarfafa don tafiya da injuna. Yi girbi da ganga mai nema ko injin. Yi muri nan da nan don hana fungus. Bushe hatsin a kan kayanrafi ko siminti mai tsabta zuwa danwilki kashi 14 cikin ɗari kafin niƙawa ko ajiya. Kada a bushe a kan ƙasa — yana haddasa gurɓata.",
+    "audio_url_en": "assets/audio/rice_harvest_en.mp3",
+    "audio_url_sw": "assets/audio/rice_harvest_sw.mp3",
+    "audio_url_ha": "assets/audio/rice_harvest_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Hermetic storage bags",
+        "quantity": "1 bag per 100 kg paddy",
+        "timing": "After drying to 14% moisture",
+        "notes_en": "Rice stored at above 14% moisture will develop mold and aflatoxin within weeks.",
+        "notes_sw": "Mpunga uliohifadhiwa kwa zaidi ya unyevu wa asilimia 14 utakuwa na kuvu na aflatoxin ndani ya wiki chache.",
+        "notes_ha": "Shinkafar da aka adana sama da danwilki kashi 14 za samar da fungus da aflatoxin a cikin makonni."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  }
+]

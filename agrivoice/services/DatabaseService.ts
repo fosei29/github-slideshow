@@ -154,18 +154,37 @@ export async function seedDatabase(): Promise<void> {
   if (alreadySeeded === "1") return;
 
   // Dynamic imports avoid bundling all JSON into the initial JS bundle
-  const [maize, pineapple, maizePests] = await Promise.all([
+  const [
+    maize, rice, cassava, pineapple, sorghum,
+    maizePests, ricePests, cassavaPests, pineapplePests, sorghumPests,
+  ] = await Promise.all([
     import("@/data/crops/maize.json"),
+    import("@/data/crops/rice.json"),
+    import("@/data/crops/cassava.json"),
     import("@/data/crops/pineapple.json"),
+    import("@/data/crops/sorghum.json"),
     import("@/data/pests/maize_pests.json"),
+    import("@/data/pests/rice_pests.json"),
+    import("@/data/pests/cassava_pests.json"),
+    import("@/data/pests/pineapple_pests.json"),
+    import("@/data/pests/sorghum_pests.json"),
   ]);
 
   const advisories = [
     ...(maize.default as Advisory[]),
+    ...(rice.default as Advisory[]),
+    ...(cassava.default as Advisory[]),
     ...(pineapple.default as Advisory[]),
+    ...(sorghum.default as Advisory[]),
   ];
 
-  const pests = maizePests.default as PestRecord[];
+  const pests = [
+    ...(maizePests.default as PestRecord[]),
+    ...(ricePests.default as PestRecord[]),
+    ...(cassavaPests.default as PestRecord[]),
+    ...(pineapplePests.default as PestRecord[]),
+    ...(sorghumPests.default as PestRecord[]),
+  ];
 
   for (const advisory of advisories) {
     await upsertAdvisory(advisory);

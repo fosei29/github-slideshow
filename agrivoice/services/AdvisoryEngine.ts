@@ -23,16 +23,31 @@ import { GROWTH_STAGES, STAGE_ORDER } from "@/constants/stages";
 // JSON imports are resolved at Metro bundle time; no network calls.
 
 import MAIZE_DATA from "@/data/crops/maize.json";
+import RICE_DATA from "@/data/crops/rice.json";
+import CASSAVA_DATA from "@/data/crops/cassava.json";
 import PINEAPPLE_DATA from "@/data/crops/pineapple.json";
+import SORGHUM_DATA from "@/data/crops/sorghum.json";
+
 import MAIZE_PESTS from "@/data/pests/maize_pests.json";
+import RICE_PESTS from "@/data/pests/rice_pests.json";
+import CASSAVA_PESTS from "@/data/pests/cassava_pests.json";
+import PINEAPPLE_PESTS from "@/data/pests/pineapple_pests.json";
+import SORGHUM_PESTS from "@/data/pests/sorghum_pests.json";
 
 const CROP_ADVISORIES: Record<string, Advisory[]> = {
-  maize: MAIZE_DATA as Advisory[],
+  maize:    MAIZE_DATA as Advisory[],
+  rice:     RICE_DATA as Advisory[],
+  cassava:  CASSAVA_DATA as Advisory[],
   pineapple: PINEAPPLE_DATA as Advisory[],
+  sorghum:  SORGHUM_DATA as Advisory[],
 };
 
 const PEST_RECORDS: Record<string, PestRecord[]> = {
-  maize: MAIZE_PESTS as PestRecord[],
+  maize:    MAIZE_PESTS as PestRecord[],
+  rice:     RICE_PESTS as PestRecord[],
+  cassava:  CASSAVA_PESTS as PestRecord[],
+  pineapple: PINEAPPLE_PESTS as PestRecord[],
+  sorghum:  SORGHUM_PESTS as PestRecord[],
 };
 
 // ─── Stage detection ──────────────────────────────────────────────────────────

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "cassava_land_prep",
+    "crop": "cassava",
+    "stage": "land_prep",
+    "advice_en": "Cassava grows well in poor, sandy or loamy soils but cannot tolerate waterlogging. Choose a well-drained site. Plow or mound the soil 25 to 30 centimeters deep. Form mounds or ridges 30 centimeters high — this improves drainage and makes harvesting tubers much easier. Remove all tree stumps and large roots. Cassava needs deep, loose soil so roots can expand freely. Add a small amount of phosphate fertilizer before planting if soil is poor.",
+    "advice_sw": "Muhogo hukua vizuri kwenye udongo duni, mchanga au tifutifu lakini hauwezi kustahimili maji yaliyotuama. Chagua eneo lenye mifereji mizuri. Lima au tengeneza matuta ya udongo kwa kina cha sentimita 25 hadi 30. Tengeneza matuta au matuta ya urefu wa sentimita 30 — hii huboresha mifereji na kufanya kuvuna mizizi kuwa rahisi zaidi. Ondoa visiki vyote vya miti na mizizi mikubwa. Muhogo unahitaji udongo mzito, laini ili mizizi iweze kupanuka kwa uhuru. Ongeza kiasi kidogo cha mbolea ya fosfati kabla ya kupanda ikiwa udongo ni duni.",
+    "advice_ha": "Rogo yana girma sosai a cikin ƙasa mai talauci, yashi ko loam amma ba zai iya jurewa da ruwa tsaye ba. Zaɓi wurin da yake da ruwa mai kyau. Noma ko tara ƙasa zuwa zurfin santimita 25 zuwa 30. Kira tarin ko ridges masu tsayin santimita 30 — wannan yana inganta fitar ruwa kuma yana sauƙaƙa girbin tubers. Cire duk gundumomi da manyan ƙafafuwa. Rogo yana buƙatar ƙasa mai zurfi, laushi don tushe ya iya fadada cikin 'yanci. Ƙara ɗan ƙaramin taki na phosphate kafin shuka idan ƙasa ta gaza.",
+    "audio_url_en": "assets/audio/cassava_land_prep_en.mp3",
+    "audio_url_sw": "assets/audio/cassava_land_prep_sw.mp3",
+    "audio_url_ha": "assets/audio/cassava_land_prep_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "SSP (Single Super Phosphate)",
+        "quantity": "25 kg per acre",
+        "timing": "Mixed into soil during mound formation",
+        "notes_en": "Phosphate promotes early root development. Critical in phosphorus-deficient soils common in West Africa.",
+        "notes_sw": "Fosfati inakuza ukuaji wa mapema wa mizizi. Muhimu katika udongo wenye upungufu wa fosfasi unaofaa Afrika Magharibi.",
+        "notes_ha": "Phosphate yana inganta ci gaban tushe na wuri. Yana da muhimmanci a cikin ƙasar da ke ƙarancin phosphorus wanda ya zama ruwan dare a Yammacin Afirka."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "cassava_planting",
+    "crop": "cassava",
+    "stage": "planting",
+    "advice_en": "Plant cassava using stem cuttings, not seeds. Cut healthy stems into pieces 25 to 30 centimeters long. Each cutting must have at least 5 to 6 nodes. Plant cuttings horizontally at 5 to 10 centimeters depth, or at a 45-degree angle. Space plants 1 meter apart in rows 1 meter apart. Plant at the start of rains for best establishment. Never plant diseased stems — this spreads cassava mosaic virus throughout your field.",
+    "advice_sw": "Panda muhogo ukitumia vipande vya shina, si mbegu. Kata mashina mazima kuwa vipande vya urefu wa sentimita 25 hadi 30. Kila kipande lazima kiwe na nodes angalau 5 hadi 6. Panda vipande mlalo kwa kina cha sentimita 5 hadi 10, au pembe ya nyuzi 45. Acha nafasi ya mita 1 kati ya mimea katika safu ya mita 1 kwa mita 1. Panda mwanzoni mwa mvua kwa uanzishaji bora. Usipande kamwe mashina yenye magonjwa — hii husambaza virusi ya mosaic ya muhogo kote kwenye shamba lako.",
+    "advice_ha": "Shuka rogo ta amfani da yankan kara, ba iri ba. Yanke karar da ke lafiya zuwa guntaye santimita 25 zuwa 30 tsawo. Kowane yankuwa dole ne ya sami nodes aƙalla 5 zuwa 6. Shuka yankan a kwance a zurfin santimita 5 zuwa 10, ko a kusurwar digiri 45. Bar shuka mita 1 tsakanin tsire-tsire a cikin layuka mita 1 da mita 1. Shuka a farkon damina don mafi kyawun kafa. Kada a shuka karar da ke ciwo — wannan yana yada cutar mosaic ta rogo a duk fadin gonarka.",
+    "audio_url_en": "assets/audio/cassava_planting_en.mp3",
+    "audio_url_sw": "assets/audio/cassava_planting_sw.mp3",
+    "audio_url_ha": "assets/audio/cassava_planting_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "NPK 15-15-15",
+        "quantity": "40 kg per acre",
+        "timing": "6–8 weeks after planting (when stems are established)",
+        "notes_en": "Do not apply at planting — cassava cuttings do not yet have roots to absorb nutrients.",
+        "notes_sw": "Usitumie wakati wa kupanda — vipande vya muhogo bado havina mizizi ya kunyonya virutubisho.",
+        "notes_ha": "Kada a saka a lokacin shuka — yankan rogo har yanzu ba su da tushe don sha abubuwan gina jiki."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "cassava_vegetative",
+    "crop": "cassava",
+    "stage": "vegetative",
+    "advice_en": "Cassava grows slowly in the first 2 months. Weed 2 to 3 times in the first 3 months — weeds compete heavily with young cassava. Apply NPK fertilizer 6 to 8 weeks after planting, 40 kilograms per acre. Top-dress with urea at 3 months, 30 kilograms per acre. Watch for cassava mosaic virus — leaves will be distorted, curled, and yellow-green. Remove and burn any infected plants immediately. Do not take cuttings from infected plants.",
+    "advice_sw": "Muhogo hukua polepole katika miezi 2 ya kwanza. Palilia mara 2 hadi 3 katika miezi 3 ya kwanza — magugu yanashindana vikali na muhogo mdogo. Weka mbolea ya NPK wiki 6 hadi 8 baada ya kupanda, kilo 40 kwa ekari. Weka mbolea ya juu ya urea miezi 3, kilo 30 kwa ekari. Angalia virusi ya mosaic ya muhogo — majani yatakuwa yamepotosha, yaliyokunjwa, na kijani-njano. Ondoa na uchome mimea yoyote iliyoathirika mara moja. Usichukue vipande kutoka kwenye mimea iliyoathirika.",
+    "advice_ha": "Rogo yana girma a hankali a cikin watanni 2 na farko. Cire ciyawa sau 2 zuwa 3 a cikin watanni 3 na farko — ciyawa suna gasa sosai da rogo matasa. Saka taki NPK makonni 6 zuwa 8 bayan shuka, kilogram 40 a kowace eka. Sama-sama da urea a watanni 3, kilogram 30 a kowace eka. Lura da cutar mosaic ta rogo — ganye za zama gurɓatacce, naɗaɗɗe, kuma rawaya-kore. Cire kuma ƙone kowace tsira da aka kamu da su nan da nan. Kada ka ɗauki yankan daga tsire-tsire da aka kamu.",
+    "audio_url_en": "assets/audio/cassava_vegetative_en.mp3",
+    "audio_url_sw": "assets/audio/cassava_vegetative_sw.mp3",
+    "audio_url_ha": "assets/audio/cassava_vegetative_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "NPK 15-15-15",
+        "quantity": "40 kg per acre",
+        "timing": "6–8 weeks after planting",
+        "notes_en": "Apply in a ring 30cm from each plant base and cover with soil.",
+        "notes_sw": "Weka katika mzunguko wa sentimita 30 kutoka msingi wa kila mmea na funika na udongo.",
+        "notes_ha": "Saka a zoben santimita 30 daga gindin kowace shuka kuma rufe da ƙasa."
+      },
+      {
+        "input": "Urea (46% N)",
+        "quantity": "30 kg per acre",
+        "timing": "3 months after planting",
+        "notes_en": "Second top-dress promotes vigorous canopy and rapid root bulking.",
+        "notes_sw": "Mbolea ya pili ya juu inakuza msitu wa nguvu na uwiano wa haraka wa mizizi.",
+        "notes_ha": "Sama-sama na biyu yana inganta rufin sama mai ƙarfi da sauri na haɓaka tushen."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "cassava_flowering",
+    "crop": "cassava",
+    "stage": "flowering",
+    "advice_en": "Cassava flowering appears at 3 to 5 months. In most varieties, flowering is brief and does not affect root development. At this stage, focus on monitoring for pests. Check underneath leaves for whiteflies and mealybugs. Check stems for scale insects. Avoid over-applying nitrogen fertilizer now — it promotes excessive leaf growth at the expense of root bulking. Maintain weed-free conditions until canopy closes.",
+    "advice_sw": "Maua ya muhogo yanaonekana kwa miezi 3 hadi 5. Katika aina nyingi, kutoa maua ni kwa muda mfupi na haathiri ukuaji wa mizizi. Katika hatua hii, zingatia ufuatiliaji wa wadudu. Angalia chini ya majani kwa nzi weupe na mealybug. Angalia mashina kwa wadudu wa gamba. Epuka kutumia sana mbolea ya nitrojeni sasa — inakuza ukuaji wa majani kupita kiasi kwa gharama ya uwiano wa mizizi. Weka hali ya bila magugu hadi dari ya juu inapokomaa.",
+    "advice_ha": "Furen rogo yana bayyana a watanni 3 zuwa 5. A yawancin nau'in, fure yana taƙaitacce kuma bai shafi ci gaban tushe ba. A wannan mataki, mai da hankali kan sa ido don kwari. Duba ƙarƙashin ganye don farin ƙudaje da mealybugs. Duba karar don kwarin ƙauri. Guje wa amfani da yawa da taki na nitrogen yanzu — yana inganta yawan ci gaban ganye a kashe bulking na tushe. Kiyaye yanayin babu ciyawa har sai rufin sama ya rufe.",
+    "audio_url_en": "assets/audio/cassava_flowering_en.mp3",
+    "audio_url_sw": "assets/audio/cassava_flowering_sw.mp3",
+    "audio_url_ha": "assets/audio/cassava_flowering_ha.mp3",
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "cassava_harvest",
+    "crop": "cassava",
+    "stage": "harvest",
+    "advice_en": "Cassava is ready for harvest between 8 and 24 months after planting, depending on the variety and use. Early harvest (8 to 12 months) gives fresh cassava for eating. Later harvest (18 to 24 months) gives higher starch content for processing. To harvest: cut stems 30 centimeters above ground first, then use a hoe or fork to loosen soil around the plant and pull up the roots. Process or sell within 48 hours of harvest — cassava spoils very quickly after digging.",
+    "advice_sw": "Muhogo uko tayari kwa kuvuna kati ya miezi 8 na 24 baada ya kupanda, kulingana na aina na matumizi. Kuvuna mapema (miezi 8 hadi 12) hutoa muhogo safi wa kula. Kuvuna baadaye (miezi 18 hadi 24) kutoa maudhui ya juu ya wanga kwa usindikaji. Kuvuna: kata mashina sentimita 30 juu ya ardhi kwanza, kisha tumia jembe au uma kulegeza udongo kuzunguka mmea na vuta mizizi. Usindika au uza ndani ya masaa 48 ya kuvuna — muhogo unaharibika haraka sana baada ya kuchimbua.",
+    "advice_ha": "Rogo yana shirye don girbi tsakanin watanni 8 da 24 bayan shuka, gwargwadon nau'in da amfani. Girbi da wuri (watanni 8 zuwa 12) yana ba da rogo mai laushi don ci. Girbin baya (watanni 18 zuwa 24) yana ba da babban abubuwan danye don sarrafa. Don girbi: yanke karar santimita 30 sama da ƙasa da farko, sannan yi amfani da fartanya ko cokali don sassauta ƙasa kusa da tsiran kuma ja tushen. Sarrafa ko sayar a cikin sa'o'i 48 na girbi — rogo yana lalacewa da sauri bayan fitar ƙasa.",
+    "audio_url_en": "assets/audio/cassava_harvest_en.mp3",
+    "audio_url_sw": "assets/audio/cassava_harvest_sw.mp3",
+    "audio_url_ha": "assets/audio/cassava_harvest_ha.mp3",
+    "updatedAt": "2024-01-15"
+  }
+]

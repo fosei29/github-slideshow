@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sorghum_land_prep",
+    "crop": "sorghum",
+    "stage": "land_prep",
+    "advice_en": "Sorghum tolerates poor and dry soils better than any other cereal. Plow to 20 to 25 centimeters depth. In Sahel regions with compacted soils, use tied ridges or zai pits to capture rainfall and stop runoff. Zai pits: dig holes 30 centimeters wide, 20 centimeters deep, spaced 80 centimeters apart. Fill with compost. This can increase yield by 50 percent in drylands. Remove all weeds before planting — Striga weed is the biggest threat to sorghum.",
+    "advice_sw": "Mtama huvumilia udongo duni na mkavu zaidi kuliko nafaka nyingine yoyote. Lima hadi kina cha sentimita 20 hadi 25. Katika maeneo ya Sahel yenye udongo mgumu, tumia matuta yaliyofungwa au mashimo ya zai kunasa mvua na kusimamisha mtiririko. Mashimo ya Zai: chimba mashimo ya upana wa sentimita 30, kina cha sentimita 20, umbali wa sentimita 80 kati yake. Jaza na mboji. Hii inaweza kuongeza mavuno kwa asilimia 50 katika maeneo ya ukame. Ondoa magugu yote kabla ya kupanda — gugu la Striga ndiyo tishio kubwa zaidi kwa mtama.",
+    "advice_ha": "Dawa yana jurewa ƙasar da ke mara da bushe fiye da kowanne hatsi mai girma. Noma zuwa zurfin santimita 20 zuwa 25. A yankuna na Sahel tare da ƙasa mai matsewa, yi amfani da ridges masu daure ko manyan ramukan zai don kama ruwan sama da dakatar da guduwa. Ramukan Zai: tono ramuka masu fadin santimita 30, zurfin santimita 20, a sarari santimita 80 daga juna. Cika da kwamfost. Wannan zai iya ƙara yawan amfanin gona da kashi 50 cikin ɗari a busasshiyar ƙasa. Cire duk ciyawa kafin shuka — ciyawar Striga ita ce babbar barazana ga dawa.",
+    "audio_url_en": "assets/audio/sorghum_land_prep_en.mp3",
+    "audio_url_sw": "assets/audio/sorghum_land_prep_sw.mp3",
+    "audio_url_ha": "assets/audio/sorghum_land_prep_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Compost or manure",
+        "quantity": "1–2 tonnes per acre (or per zai pit)",
+        "timing": "During land preparation or placed in zai pits",
+        "notes_en": "Even small amounts of organic matter significantly boost sorghum yield in poor soils.",
+        "notes_sw": "Hata kiasi kidogo cha viumbe hai huongeza kwa kiasi kikubwa mavuno ya mtama kwenye udongo duni.",
+        "notes_ha": "Ko ɗan ƙaramin abubuwan da ke da rai yana ƙara yawan amfanin dawa sosai a cikin ƙasa mai talauci."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "sorghum_planting",
+    "crop": "sorghum",
+    "stage": "planting",
+    "advice_en": "Plant sorghum seeds 3 to 5 centimeters deep. Space rows 75 centimeters apart and seeds 20 to 25 centimeters apart within the row. Plant 3 seeds per hole, then thin to 1 to 2 strong plants after germination. Apply DAP fertilizer in the planting hole: 1 small handful per hole (about 5 grams). Plant immediately when the first good rains arrive — sorghum established early escapes dry spells later. In Striga-prone areas, sow Striga-resistant varieties like SAMSORG.",
+    "advice_sw": "Panda mbegu za mtama kwa kina cha sentimita 3 hadi 5. Acha nafasi ya sentimita 75 kati ya mistari na mbegu sentimita 20 hadi 25 kati ndani ya mstari. Panda mbegu 3 kwa kila shimo, kisha thinisha hadi mimea 1 hadi 2 yenye nguvu baada ya kuota. Weka mbolea ya DAP kwenye shimo la kupanda: kijiko kimoja kidogo kwa kila shimo (kama gramu 5). Panda mara moja mvua nzuri ya kwanza inapofikia — mtama uliostawi mapema unaepuka vipindi vya ukame baadaye. Katika maeneo yanayoathiriwa na Striga, panda aina zinazostahimili Striga kama SAMSORG.",
+    "advice_ha": "Shuka irinnin dawa zuwa zurfin santimita 3 zuwa 5. Bar sarari santimita 75 tsakanin layuka da irinnin santimita 20 zuwa 25 tsakanin a cikin laiyin. Shuka irinnin 3 a kowace rami, sannan rage zuwa tsire-tsire 1 zuwa 2 masu ƙarfi bayan tsirowa. Saka taki DAP a cikin ramin shuka: ɗan ƙaramin dako ɗaya a kowace rami (kusan gram 5). Shuka nan da nan lokacin da ruwan sama mai kyau na farko ya zo — dawa da aka kafa da wuri tana guje wa lokacin bushe daga baya. A yankuna masu Striga, shuka nau'in da ke jurewa Striga kamar SAMSORG.",
+    "audio_url_en": "assets/audio/sorghum_planting_en.mp3",
+    "audio_url_sw": "assets/audio/sorghum_planting_sw.mp3",
+    "audio_url_ha": "assets/audio/sorghum_planting_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "DAP fertilizer",
+        "quantity": "5g per hole (approx 25 kg per acre)",
+        "timing": "At planting — mix into soil before placing seed",
+        "notes_en": "Keep fertilizer below the seed level to avoid burning germinating seedlings.",
+        "notes_sw": "Weka mbolea chini ya kiwango cha mbegu ili kuepuka kuchoma miche inayoota.",
+        "notes_ha": "Kiyaye taki ƙarƙashin matakin iri don guje wa ƙona tsiraye masu tsirowa."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "sorghum_vegetative",
+    "crop": "sorghum",
+    "stage": "vegetative",
+    "advice_en": "Weed sorghum thoroughly at 2 to 3 weeks and again at 6 weeks after planting. Weeding after 6 weeks has little effect — sorghum's canopy closes and shades weeds. If Striga weed appears (small yellow or purple flowering weed), uproot and remove from the field before it flowers and sets seed. Do not compost Striga — burn it. Apply top-dress fertilizer at 5 to 6 weeks: 40 kilograms of urea per acre. Sorghum is more drought-tolerant than maize but still benefits from fertilizer.",
+    "advice_sw": "Palilia mtama kwa kina wiki 2 hadi 3 na tena wiki 6 baada ya kupanda. Kupalilia baada ya wiki 6 kuna athari kidogo — dari ya juu ya mtama inafunga na kutoa kivuli kwa magugu. Ikiwa gugu la Striga linaonekana (gugu ndogo la maua ya njano au zambarau), ng'oa na uondoe kutoka shambani kabla haijachanua na kutoa mbegu. Usifanye mboji Striga — iteketeze. Weka mbolea ya juu wiki 5 hadi 6: kilo 40 za urea kwa ekari. Mtama huvumilia ukame zaidi kuliko mahindi lakini bado unufaika na mbolea.",
+    "advice_ha": "Cire ciyawa dawa sosai a makonni 2 zuwa 3 kuma sake a makonni 6 bayan shuka. Cire ciyawa bayan makonni 6 yana da ɗan tasiri — rufin sama na dawa yana rufe kuma yana rufe ciyawa. Idan ciyawar Striga ta bayyana (ƙaramin ciyawa mai rawaya ko fure mai shuɗi mai ruwan hoda), tsinkaya kuma cire daga gonarka kafin ta fure kuma ta sa iri. Kar a yi kwamfost Striga — ƙona shi. Saka taki sama-sama a makonni 5 zuwa 6: kilogram 40 na urea a kowace eka. Dawa yana jurewa fari fiye da masara amma har yanzu yana cin gajiyar taki.",
+    "audio_url_en": "assets/audio/sorghum_vegetative_en.mp3",
+    "audio_url_sw": "assets/audio/sorghum_vegetative_sw.mp3",
+    "audio_url_ha": "assets/audio/sorghum_vegetative_ha.mp3",
+    "dosageInfo": [
+      {
+        "input": "Urea (46% N)",
+        "quantity": "40 kg per acre",
+        "timing": "5–6 weeks after planting",
+        "notes_en": "Apply when soil is moist. Dry soil causes urea to volatilize and be lost.",
+        "notes_sw": "Weka wakati udongo unapoungua. Udongo kavu husababisha urea kubadilika na kupotea.",
+        "notes_ha": "Saka lokacin da ƙasa take jiƙa. Ƙasar bushewa yana haddasa urea ya ƙafe kuma ta ɓace."
+      }
+    ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "sorghum_flowering",
+    "crop": "sorghum",
+    "stage": "flowering",
+    "advice_en": "Sorghum is heading and flowering. This is a critical stage for grain set. Sorghum can tolerate drought better than most crops, but moisture stress during flowering will reduce grain numbers significantly. Watch for bird damage — quelea birds attack sorghum in large flocks at this stage. Use scarecrows, noise makers, or bird netting if possible. Also watch for head bugs (mirid bugs) that suck developing grains — spray with pyrethroid insecticide early in the morning.",
+    "advice_sw": "Mtama unatoa kichwa na maua. Hii ni hatua muhimu kwa kuweka nafaka. Mtama unaweza kustahimili ukame zaidi ya mazao mengi, lakini msongo wa unyevu wakati wa kutoa maua utapunguza idadi ya nafaka kwa kiasi kikubwa. Angalia uharibifu wa ndege — ndege wa quelea hushambulia mtama kwa makundi makubwa katika hatua hii. Tumia vitisho vya ndege, vifaa vya kelele, au nyavu za ndege ikiwezekana. Pia angalia wadudu wa kichwa (wadudu wa mirid) wanaonyonya nafaka zinazokua — nyunyizia dawa ya pyrethroid asubuhi mapema.",
+    "advice_ha": "Dawa yana jagoranci da fure. Wannan shine matakin da yafi muhimmanci don saita hatsi. Dawa na iya jurewa fari fiye da yawancin amfanin gona, amma matsin danwilki a lokacin fure zai rage yawan hatsi sosai. Lura da cutar tsuntsu — tsarin tsuntsuwar quelea suna kai wa dawa hari cikin gaggawa a wannan mataki. Yi amfani da mutum-mutumi, kayan yin hayaniya, ko saƙar tsuntsu idan zai yiwu. Kuma lura da kwari na kansa (kwari na mirid) waɗanda ke sha hatsi masu ci gaba — fesa da maganin ƙwari na pyrethroid da safe.",
+    "audio_url_en": "assets/audio/sorghum_flowering_en.mp3",
+    "audio_url_sw": "assets/audio/sorghum_flowering_sw.mp3",
+    "audio_url_ha": "assets/audio/sorghum_flowering_ha.mp3",
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "sorghum_harvest",
+    "crop": "sorghum",
+    "stage": "harvest",
+    "advice_en": "Sorghum is ready when the seeds are hard and the stalk below the head is dry. Cut the heads with a sickle when 50 percent of the grains are hard. Leave the heads in the sun to dry for 5 to 7 days before threshing. Thresh by beating the heads against a hard surface or with a threshing machine. Dry grain to 12 to 13 percent moisture. Store in a cool dry place. Sorghum stores better than maize and can last 2 to 3 years in hermetic bags without insecticide.",
+    "advice_sw": "Mtama uko tayari wakati mbegu ni ngumu na shina chini ya kichwa kimekauka. Kata vichwa kwa mundu wakati asilimia 50 ya nafaka ni ngumu. Acha vichwa jua kali kukaushwa kwa siku 5 hadi 7 kabla ya kupiga. Piga kwa kugonga vichwa dhidi ya uso mgumu au kwa mashine ya kupiga. Kaush nafaka hadi unyevu wa asilimia 12 hadi 13. Hifadhi mahali pakavu na baridi. Mtama huhifadhiwa vizuri zaidi kuliko mahindi na unaweza kudumu miaka 2 hadi 3 kwenye mifuko ya hermetic bila dawa ya kuua wadudu.",
+    "advice_ha": "Dawa yana shirye lokacin da irinnin ya ƙarfafa kuma karar da ke ƙarƙashin kansa ya bushe. Yanke ƙanshiyen da ganga mai nema lokacin da kashi 50 cikin ɗari na hatsin ya ƙarfafa. Bar ƙanshiyen a rana don bushe na kwanaki 5 zuwa 7 kafin muri. Yi muri ta duka ƙanshiyen a kan saman da ya ƙarfafa ko tare da injin muri. Bushe hatsin zuwa danwilki kashi 12 zuwa 13. Ajiye a wuri mai sanyi da bushe. Dawa yana ajiya mafi kyau fiye da masara kuma zai iya dawwama shekara 2 zuwa 3 a jakunkuna masu rufe ba tare da maganin ƙwari ba.",
+    "audio_url_en": "assets/audio/sorghum_harvest_en.mp3",
+    "audio_url_sw": "assets/audio/sorghum_harvest_sw.mp3",
+    "audio_url_ha": "assets/audio/sorghum_harvest_ha.mp3",
+    "updatedAt": "2024-01-15"
+  }
+]

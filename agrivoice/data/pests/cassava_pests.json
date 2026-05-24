@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cassava_mosaic",
+    "crop": "cassava",
+    "name_en": "Cassava Mosaic Disease",
+    "name_sw": "Ugonjwa wa Mosaic wa Muhogo",
+    "name_ha": "Cutar Mosaic ta Rogo",
+    "symptoms_en": "Leaves show yellow-green mosaic patterns with distortion and twisting. Affected leaves are smaller and stunted. Severely affected plants produce very few roots and much smaller tubers. The virus is spread by whiteflies and through infected cuttings. It is the most devastating cassava disease in Africa — responsible for up to 80% yield loss.",
+    "symptoms_sw": "Majani yanaonyesha mifumo ya mosaic ya kijani-njano yenye upotofu na kupinda. Majani yaliyoathirika ni madogo zaidi na yenye ukomavu mdogo. Mimea iliyoathirika vibaya hutoa mizizi michache sana na mizizi midogo zaidi. Virusi husambazwa na nzi weupe na kupitia vipande vilivyoambukizwa. Ni ugonjwa wa muhogo wenye uharibifu mkubwa zaidi Afrika — husababisha hasara ya hadi asilimia 80 ya mavuno.",
+    "symptoms_ha": "Ganye suna nuna tsarin mosaic na rawaya-kore tare da gurbatawa da juyawa. Ganyen da aka shafa sun fi ƙanana kuma sun ji daɗi. Tsire-tsire da aka shafa sosai suna samar da kaɗan tushe kuma ƙananan tubers. Kwayar cuta tana yada ta hanyar farin ƙudaje da ta hanyar yankan da aka kamu. Ita ce cutar rogo mafi lalacewar a Afirka — tana da alhakin har zuwa kashi 80 cikin ɗari asarar amfanin gona.",
+    "treatment_en": "There is no cure for cassava mosaic. Remove and destroy all infected plants immediately — do not leave them in the field. Plant only virus-free cuttings from healthy plants. Use resistant varieties (e.g., TME 419, IITA-TMS-IBA30572). Control whiteflies with neem oil spray (50ml neem oil per litre of water) to slow spread. Never take cuttings from an infected field.",
+    "treatment_sw": "Hakuna tiba ya mosaic ya muhogo. Ondoa na uharibu mimea yote iliyoathirika mara moja — usiaache shambani. Panda tu vipande visivyo na virusi kutoka kwenye mimea yenye afya. Tumia aina zinazostahimili (mfano, TME 419, IITA-TMS-IBA30572). Dhibiti nzi weupe kwa dawa ya mafuta ya neem (ml 50 za mafuta ya neem kwa lita moja ya maji) kupunguza kuenea. Kamwe usichukue vipande kutoka shamba lililooathirika.",
+    "treatment_ha": "Babu magani don cutar mosaic ta rogo. Cire kuma lalata duk tsire-tsire da aka kamu nan da nan — kada a bar su a gonarka. Shuka yankan da babu kwayar cuta daga cikin tsire-tsire masu lafiya kawai. Yi amfani da nau'in da ke jurewa (misali, TME 419, IITA-TMS-IBA30572). Sarrafa farin ƙudaje da feshin man neem (milili 50 na man neem a kowace lita na ruwa) don rage yaɗuwa. Kada a taɓa ɗauki yankan daga gonarka da aka kamu.",
+    "modelLabel": "cassava_mosaic",
+    "imageRef": "assets/pests/cassava_mosaic.jpg"
+  },
+  {
+    "id": "cassava_mealybug",
+    "crop": "cassava",
+    "name_en": "Cassava Mealybug",
+    "name_sw": "Mealybug wa Muhogo",
+    "name_ha": "Mealybug na Rogo",
+    "symptoms_en": "White, cottony, waxy coating on leaves and stems. Plants are stunted with small, bunched-up leaves called bunchy top. Heavy infestations cause die-back from the tips. The mealybug also excretes honeydew which causes black sooty mold on leaves. Most severe during dry season when natural enemies decline.",
+    "symptoms_sw": "Mipako nyeupe, ya pamba, yenye nta kwenye majani na mashina. Mimea ina ukomavu mdogo na majani madogo yenye kujikusanya inayoitwa bunchy top. Msambao mkali husababisha kufa kutoka kwenye ncha. Mealybug pia hutoa honeydew ambayo husababisha kuvu nyeusi kwenye majani. Kali zaidi wakati wa kiangazi wakati maadui wa asili wanapopungua.",
+    "symptoms_ha": "Fari, mai auduga, mai kakin ruwa a kan ganye da karar. Tsire-tsire suna raguwa cikin girma tare da ƙananan, taran-taran ganye da ake kira bunchy top. Infestations masu nauyi suna haddasa mutuwa daga iyakar. Mealybug kuma yana fitar da honeydew wanda ke haddasa fungus mai baƙi a ganye. Ya fi tsanani a lokacin rani lokacin da maƙiyan halitta suka ragu.",
+    "treatment_en": "Spray with neem oil (50ml per litre) or insecticidal soap. For severe infestations use chlorpyrifos spray. Introduce the biological control wasp Anagyrus lopezi — available from national agricultural extension services in many African countries. This parasitic wasp is the most effective long-term control. Remove heavily infested plant tips and burn them. Avoid planting in consecutive seasons without a break.",
+    "treatment_sw": "Nyunyizia mafuta ya neem (ml 50 kwa lita) au sabuni ya kuua wadudu. Kwa msambao mkali tumia dawa ya chlorpyrifos. Ingiza nyigu wa udhibiti wa kibiolojia Anagyrus lopezi — inapatikana kutoka huduma za ugani wa kilimo za kitaifa katika nchi nyingi za Afrika. Nyigu huyu wa kijeshi ndiye udhibiti bora zaidi wa muda mrefu. Ondoa ncha za mimea zilizosambaa sana na uziteketeze. Epuka kupanda katika misimu inayofuatana bila kupumzika.",
+    "treatment_ha": "Fesa da man neem (milili 50 a kowace lita) ko sabulu mai kashe kwari. Don infestations masu tsanani yi amfani da feshin chlorpyrifos. Gabatar da daddaren sarrafa ta halitta Anagyrus lopezi — ana samun shi daga hukumomin faɗaɗa noma na ƙasa a ƙasashe masu yawa na Afirka. Wannan daddaron mai cutar shi ne mafi ingancin sarrafa na dogon lokaci. Cire iyakar tsire-tsire da aka shafa sosai kuma ƙona su. Guje wa shuka a cikin kakar da ta biyo baya ba tare da hutu ba.",
+    "modelLabel": "mealybug",
+    "imageRef": "assets/pests/cassava_mealybug.jpg"
+  }
+]

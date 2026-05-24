@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rice_blast",
+    "crop": "rice",
+    "name_en": "Rice Blast",
+    "name_sw": "Ugonjwa wa Mlipuko wa Mpunga",
+    "name_ha": "Cutar Fashewa ta Shinkafa",
+    "symptoms_en": "Diamond-shaped lesions with grey centers and brown borders on leaves. Lesions also appear on stems at nodes, causing stem rot and plant collapse. Panicle neck rot causes the entire head to turn black and die. Most severe in cool, humid weather. Can destroy up to 100% of crop if uncontrolled.",
+    "symptoms_sw": "Vidonda vya umbo la almasi vyenye vitovu vya kijivu na mipaka ya kahawia kwenye majani. Vidonda pia vinaonekana kwenye mashina kwenye nodes, husababisha kuoza kwa shina na mzizi wa mmea. Kuoza kwa shingo ya panikili husababisha kichwa kizima kugeuka nyeusi na kufa. Kali zaidi katika hali ya baridi, unyevu. Inaweza kuharibu hadi asilimia 100 ya zao ikiwa haijadhibitiwa.",
+    "symptoms_ha": "Raunuka masu siffar lu'ulu'u tare da tsakiya mai launin toka da gefuna masu launin ruwan kasa a ganye. Raunuka kuma suna bayyana a kan karar a nodes, suna haddasa ruɓewar kara da rushewar tsiran. Ruɓewar wuyar panicle yana haddasa dukkan kansa ya zama baƙi kuma ya mutu. Ya fi tsanani a yanayin sanyi mai danshi. Zai iya lalata har zuwa kashi 100 cikin ɗari na amfanin gona idan ba a sarrafa shi ba.",
+    "treatment_en": "Spray with tricyclazole or isoprothiolane fungicide as soon as you see lesions. Spray twice, 7 days apart. Apply preventively at booting stage (when head is forming inside the sheath). Use resistant varieties such as NERICA. Avoid excess nitrogen fertilizer — it promotes lush growth that blast thrives in. Drain fields periodically to reduce humidity.",
+    "treatment_sw": "Nyunyizia dawa ya kuua kuvu ya tricyclazole au isoprothiolane mara tu unapoona vidonda. Nyunyizia mara mbili, siku 7 kati yake. Tumia kwa kinga katika hatua ya booting (wakati kichwa kinaundwa ndani ya ukanda). Tumia aina zinazostahimili kama NERICA. Epuka mbolea nyingi ya nitrojeni — inakuza ukuaji wa majani mengi ambayo blast hustawi. Mwaga mashamba mara kwa mara kupunguza unyevu.",
+    "treatment_ha": "Fesa da maganin tricyclazole ko isoprothiolane fungicide nan da nan lokacin da kuka ga raunuka. Fesa sau biyu, kwanaki 7 tsakanin. Saka don rigakafi a matakan booting (lokacin da kansa ke ƙirƙira a cikin kwarkwata). Yi amfani da nau'in da ke jurewa kamar NERICA. Guje wa yawan taki mai nitrogen — yana inganta ci gaban ganye mai lushness wanda blast ke bunƙasa a ciki. Zubar da filayen lokaci zuwa lokaci don rage danshi.",
+    "modelLabel": "rice_blast",
+    "imageRef": "assets/pests/rice_blast.jpg"
+  },
+  {
+    "id": "brown_planthopper",
+    "crop": "rice",
+    "name_en": "Brown Planthopper",
+    "name_sw": "Nzi wa Kahawia wa Mimea",
+    "name_ha": "Farin Tsutsar Kasa mai Ruwan Kasa",
+    "symptoms_en": "Circular patches of dead, brown plants in the field called hopperburn. Plants wilt and turn brown suddenly, looking like drought damage but with standing water. Check the base of plants — insects are small, brown, 3-4mm, found hiding at the water line. Severe infestations can destroy an entire field in days.",
+    "symptoms_sw": "Maeneo ya mviringo ya mimea iliyokufa, ya kahawia shambani inayoitwa hopperburn. Mimea inanyauka na kugeuka kahawia ghafla, ikionekana kama uharibifu wa ukame lakini na maji ya kusimama. Angalia msingi wa mimea — wadudu ni wadogo, wa kahawia, 3-4mm, huhisi wakijificha kwenye mstari wa maji. Msambao mkali unaweza kuharibu shamba lote kwa siku chache.",
+    "symptoms_ha": "Zagaye na tsire-tsire matatattara, masu launin ruwan kasa a gonarka ana kiranta hopperburn. Tsire-tsire suna ɓulle kuma nan da nan suka zama launin ruwan kasa, suna kama kamar lalacewar fari amma tare da ruwa mai tsaye. Duba gindin tsire-tsire — kwari ƙanana ne, masu launin ruwan kasa, 3-4mm, ana samun su suna ɓuya a layin ruwa. Infestations mai tsanani na iya lalata dukan gonarka a cikin 'yan kwanaki.",
+    "treatment_en": "Drain the field and allow it to dry for 3 to 5 days — this disrupts the insect's habitat. Spray buprofezin or imidacloprid at the base of plants. Do not spray broad-spectrum insecticides like lambda-cyhalothrin — these kill natural predators and cause resurgence. Use resistant varieties. Alternate flooding and draining periodically to prevent buildup.",
+    "treatment_sw": "Mwaga shamba na liache likauke kwa siku 3 hadi 5 — hii huzuia makazi ya wadudu. Nyunyizia buprofezin au imidacloprid kwenye msingi wa mimea. Usinyunyizie dawa za wadudu za wigo mpana kama lambda-cyhalothrin — hizi huua wadudu wanaokula na kusababisha kurudi tena. Tumia aina zinazostahimili. Badilisha kufurika na kumwagika mara kwa mara kuzuia mkusanyiko.",
+    "treatment_ha": "Zubar da gonarka kuma bari ta bushe na kwanaki 3 zuwa 5 — wannan yana katse muhallin kwarin. Fesa buprofezin ko imidacloprid a gindin tsire-tsire. Kada a fesa maganin ƙwari na faɗin faffadan kamar lambda-cyhalothrin — waɗannan suna kashe masu farauta na halitta kuma suna haddasa dawowa. Yi amfani da nau'in da ke jurewa. Sauya cika ruwa da zubar lokaci zuwa lokaci don hana tarawa.",
+    "modelLabel": "brown_planthopper",
+    "imageRef": "assets/pests/brown_planthopper.jpg"
+  }
+]

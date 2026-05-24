@@ -10,6 +10,7 @@ import { StatusBar } from "expo-status-bar";
 import { initDatabase, seedDatabase } from "@/services/DatabaseService";
 import { initAudio } from "@/services/AudioService";
 import { registerBackgroundSync } from "@/services/SyncService";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 
 export default function RootLayout() {
   useEffect(() => {
@@ -30,11 +31,11 @@ export default function RootLayout() {
   }, []);
 
   return (
-    <>
+    <ErrorBoundary>
       <StatusBar style="auto" />
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       </Stack>
-    </>
+    </ErrorBoundary>
   );
 }

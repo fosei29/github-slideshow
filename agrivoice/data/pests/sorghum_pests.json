@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sorghum_stem_borer",
+    "crop": "sorghum",
+    "name_en": "Sorghum Stem Borer",
+    "name_sw": "Borer wa Shina la Mtama",
+    "name_ha": "Bore na Kafar Dawa",
+    "symptoms_en": "Dead heart in young plants — the central leaf whorl dies and turns brown. In older plants, round holes in stems with sawdust-like frass. Stems break at attacked nodes. Head damage causes partial head death called deadhead. Most damage occurs at vegetative stage. Busseola fusca is the main species in East Africa; Chilo partellus in dry areas.",
+    "symptoms_sw": "Moyo uliokufa kwenye mimea midogo — kipenyo cha jani la kati hufa na kugeuka kahawia. Kwenye mimea ya zamani, mashimo ya mviringo kwenye mashina yenye frass inayofanana na vumbi la mti. Mashina huvunjika kwenye nodes zilizoshambuliwa. Uharibifu wa kichwa husababisha kifo cha kichwa kidogo kinachojulikana kama deadhead. Uharibifu mkubwa hutokea katika hatua ya ukuaji. Busseola fusca ndiyo spishi kuu Afrika Mashariki; Chilo partellus katika maeneo makame.",
+    "symptoms_ha": "Zuciya ta mutu a cikin tsire-tsire matasa — ganyen da ke cikin cibiyar da suka girgije suna mutuwa kuma suna zama launin ruwan kasa. A cikin tsofaffin tsire-tsire, ramukan da'ira a cikin karar tare da frass mai kama da ƙurar itace. Karar suna karye a nodes masu kai hari. Cutar kansa yana haddasa mutuwar kansa ɗan ƙarami da ake kira deadhead. Yawancin lalacewa yana faruwa a matakan ci gaban. Busseola fusca ita ce manyan nau'in a Gabashin Afirka; Chilo partellus a wuraren bushe.",
+    "treatment_en": "Apply granular insecticide (carbofuran or lambda-cyhalothrin granules) into the whorl at 3 weeks and 5 weeks after planting. Spray pyrethroid at first sign of damage. Intercrop with cowpea or desmodium — these attract natural parasitoid enemies of stem borers. Push-pull system: plant napier grass as a border crop to attract borers away from sorghum. Early planting also reduces infestation pressure.",
+    "treatment_sw": "Weka dawa ya wadudu ya punjio (carbofuran au lambda-cyhalothrin punjio) kwenye kipenyo wiki 3 na wiki 5 baada ya kupanda. Nyunyizia pyrethroid kwa dalili ya kwanza ya uharibifu. Panda pamoja na kunde au desmodium — hizi huvutia maadui wa asili wa vimelea vya borer ya shina. Mfumo wa Sukuma-Vuta: panda nyasi ya napier kama zao la mpaka kuvutia borer mbali na mtama. Kupanda mapema pia hupunguza shinikizo la msambao.",
+    "treatment_ha": "Saka maganin ƙwari mai granule (carbofuran ko lambda-cyhalothrin granules) a cikin whorl a makonni 3 da makonni 5 bayan shuka. Fesa pyrethroid a alamar farko na lalacewa. Noma tare da wake ko desmodium — waɗannan suna jan maƙiyan halitta na masu cutar bore na kara. Tsarin Push-pull: shuka ciyawar napier a matsayin amfanin gona na iyaka don jan bore daga dawa. Shuka da wuri kuma yana rage matsin infestation.",
+    "modelLabel": "stem_borer",
+    "imageRef": "assets/pests/sorghum_stem_borer.jpg"
+  },
+  {
+    "id": "striga",
+    "crop": "sorghum",
+    "name_en": "Striga (Witchweed)",
+    "name_sw": "Striga (Gugu la Uchawi)",
+    "name_ha": "Striga (Ciyawar Tsafi)",
+    "symptoms_en": "Sorghum plants are severely stunted and yellow, appearing drought-stressed even with good rain. Small reddish or purple flowering weeds emerge from the soil around the sorghum — these are Striga parasitic plants that attach to sorghum roots and steal water and nutrients. One Striga plant can produce up to 50,000 seeds that stay viable in soil for 20 years.",
+    "symptoms_sw": "Mimea ya mtama ina ukomavu mkubwa na ni ya njano, ikionyesha msongo wa ukame hata na mvua nzuri. Magugu madogo ya maua nyekundu au ya zambarau yanachipuka kutoka kwenye udongo kuzunguka mtama — hizi ni mimea ya vimelea ya Striga inayoshikamana na mizizi ya mtama na kuiba maji na virutubisho. Mmea mmoja wa Striga unaweza kuzalisha hadi mbegu 50,000 zinazobaki hai kwenye udongo kwa miaka 20.",
+    "symptoms_ha": "Tsire-tsire na dawa suna raguwa sosai cikin girma kuma suna rawaya, suna bayyana matsin fari ko da ruwan sama mai kyau. Ƙananan ciyawa masu fure ja ko shuɗi mai ruwan hoda suna fitowa daga ƙasa kusa da dawa — waɗannan tsire-tsire masu cutar Striga ne waɗanda ke manne da tushen dawa kuma suna satar ruwa da abubuwan gina jiki. Tsiran Striga ɗaya na iya samar da har iri 50,000 waɗanda suke raye a cikin ƙasa na shekara 20.",
+    "treatment_en": "Prevention is the only effective strategy — there is no cure once Striga is established in soil. Use Striga-resistant sorghum varieties (SAMSORG-17, ESH-1). Apply 1 teaspoon of nitrogen fertilizer at planting in each hole — this helps sorghum grow fast and outcompete Striga early. Hand-pull Striga before it flowers. Plant cowpea as a trap crop in the off-season — Striga attaches to cowpea but cannot complete its life cycle on it. Rotate with non-host crops.",
+    "treatment_sw": "Kinga ndiyo mkakati pekee unaofaa — hakuna tiba baada ya Striga kuanzishwa kwenye udongo. Tumia aina za mtama zinazostahimili Striga (SAMSORG-17, ESH-1). Weka kijiko kimoja cha mbolea ya nitrojeni wakati wa kupanda kwenye kila shimo — hii husaidia mtama kukua haraka na kushinda Striga mapema. Ng'oa Striga kwa mkono kabla haijachanua. Panda kunde kama zao la mitego wakati wa msimu mbadala — Striga inashikamana na kunde lakini haiwezi kukamilisha mzunguko wake wa maisha. Zungusha na mazao yasiyokuwa na mwenyeji.",
+    "treatment_ha": "Rigakafi ita ce dabara ɗaya da ke tasiri — babu magani da zarar Striga ta kafa a cikin ƙasa. Yi amfani da nau'in dawa da ke jurewa Striga (SAMSORG-17, ESH-1). Saka guga 1 na taki mai nitrogen a lokacin shuka a kowace rami — wannan yana taimaka wa dawa ta girma da sauri kuma ta fi Striga a farko. Jan Striga da hannu kafin ta fure. Shuka wake a matsayin amfanin gona na tarko a lokacin da ba kakar ba — Striga tana manne da wake amma ba za ta iya kammala zagayenta na rayuwa a kai ba. Juyawa tare da amfanin gona marasa mai masauki.",
+    "modelLabel": "leaf_blight",
+    "imageRef": "assets/pests/striga.jpg"
+  }
+]

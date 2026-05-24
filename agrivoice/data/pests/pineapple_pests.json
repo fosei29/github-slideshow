@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pineapple_mealybug",
+    "crop": "pineapple",
+    "name_en": "Pineapple Mealybug Wilt",
+    "name_sw": "Unyauka wa Mealybug wa Nanasi",
+    "name_ha": "Bushewar Mealybug na Anabas",
+    "symptoms_en": "Leaves turn reddish or pinkish from the tips and gradually die back. Roots become brown and rotten. Plants wilt and stop growing. Mealybugs are white, cottony insects found at the leaf bases, often protected by ants. The wilt is actually caused by a virus that mealybugs transmit, not the mealybug itself. Ants farming mealybugs spread the problem across the field.",
+    "symptoms_sw": "Majani hugeuka nyekundu au pinkish kutoka kwenye ncha na polepole kufa. Mizizi hugeuka kahawia na kuoza. Mimea hunywea na kusimama kukua. Mealybug ni wadudu weupe, wa pamba wanaopatikana kwenye misingi ya majani, mara nyingi wakilindwa na mchwa. Unyauka hasa husababishwa na virusi ambayo mealybug husambaza, si mealybug yenyewe. Mchwa unaolea mealybug husambaza tatizo kote shambani.",
+    "symptoms_ha": "Ganye suna juya ja ko pinkish daga iyakar kuma a hankali suna mutuwa. Tushe suna zama launin ruwan kasa kuma sun ruɓe. Tsire-tsire suna ɓulle kuma suna daina girma. Mealybugs kwari ne masu fari da auduga da ake samun su a gindin ganye, sau da yawa ana kiyaye su ta tururuwa. Bushewar a haƙiƙa yana haddasa ta hanyar kwayar cuta da mealybugs suke yada, ba mealybug kanta ba. Tururuwa masu kiwo mealybugs suna yada matsalar a duk fadin gonarka.",
+    "treatment_en": "Control ants first — ants protect mealybugs from natural enemies. Apply ant bait or a sticky barrier around the base of plants. Then spray mealybugs with chlorpyrifos or dimethoate diluted in water. Remove and burn severely infected plants. Apply systemic insecticides to soil for severe infestations. There is no cure once wilt virus is established — prevention through clean planting material is essential.",
+    "treatment_sw": "Dhibiti mchwa kwanza — mchwa hulinda mealybug kutoka kwa maadui wa asili. Tumia chambo cha mchwa au kizuizi cha kunata kuzunguka msingi wa mimea. Kisha nyunyizia mealybug kwa chlorpyrifos au dimethoate iliyopunguzwa ndani ya maji. Ondoa na uchome mimea iliyoathirika vibaya. Tumia dawa za kuua wadudu za kimfumo kwenye udongo kwa msambao mkali. Hakuna tiba baada ya virusi ya unyauka kuanzishwa — kinga kupitia vifaa safi vya kupanda ni muhimu.",
+    "treatment_ha": "Sarrafa tururuwa da farko — tururuwa suna kiyaye mealybugs daga maƙiyan halitta. Saka cizon tururuwa ko shingen mai liƙawa kusa da gindin tsire-tsire. Sannan fesa mealybugs da chlorpyrifos ko dimethoate da aka rara a cikin ruwa. Cire kuma ƙone tsire-tsire da aka shafa sosai. Saka maganin ƙwari na tsarin zuwa ƙasa don infestations masu tsanani. Babu magani da zarar cutar bushewar ta kafa — rigakafi ta hanyar kayan shuka mai tsabta yana da mahimmanci.",
+    "modelLabel": "mealybug",
+    "imageRef": "assets/pests/pineapple_mealybug.jpg"
+  },
+  {
+    "id": "pineapple_root_rot",
+    "crop": "pineapple",
+    "name_en": "Pineapple Root and Heart Rot",
+    "name_sw": "Kuoza kwa Mizizi na Moyo wa Nanasi",
+    "name_ha": "Ruɓewar Tushe da Zuciya ta Anabas",
+    "symptoms_en": "Young leaves at the center of the plant pull out easily with no resistance — a sure sign of heart rot. Leaves turn yellow-brown from the base and die. A foul smell comes from the base of the plant. Root system is dark brown and mushy when examined. Caused by Phytophthora fungus in waterlogged or poorly drained soils. Can kill plants within 2 weeks.",
+    "symptoms_sw": "Majani madogo kwenye katikati ya mmea yanatolewa kwa urahisi bila upinzani — dalili ya uhakika ya kuoza kwa moyo. Majani hugeuka njano-kahawia kutoka chini na kufa. Harufu mbaya hutoka chini ya mmea. Mfumo wa mizizi ni kahawia nyeusi na laini unapochunguzwa. Husababishwa na kuvu ya Phytophthora kwenye udongo uliofurika au wenye mifereji mibaya. Inaweza kuua mimea ndani ya wiki 2.",
+    "symptoms_ha": "Ganyen da suka ƙanana a tsakiyar tsiran suna fita da sauƙi ba tare da juriya ba — alamar tabbatacciyar ruɓewar zuciya. Ganye suna juya rawaya-ruwan kasa daga gindin kuma suna mutuwa. Ƙanshin mugu yana fitowa daga gindin tsiran. Tsarin tushen yana da launin ruwan kasa mai zurfi kuma yana laushi lokacin bincike. Yana haddasa ta hanyar fungus na Phytophthora a cikin ƙasar da ke ruwa ko mara fitar ruwa. Zai iya kashe tsire-tsire a cikin makonni 2.",
+    "treatment_en": "Improve drainage immediately — root rot cannot spread in well-drained soil. Remove infected plants and drench the area with metalaxyl or fosetyl-aluminium fungicide solution. Allow the site to dry for 2 to 3 weeks before replanting. Do not replant in the same hole. Use raised beds to prevent future waterlogging. Drench new planting material with fungicide before planting as a preventive measure.",
+    "treatment_sw": "Boresha mifereji mara moja — kuoza kwa mizizi hakuwezi kuenea kwenye udongo wenye mifereji mizuri. Ondoa mimea iliyoathirika na mwagilia eneo kwa ufumbuzi wa dawa ya metalaxyl au fosetyl-aluminium. Ruhusu eneo likauke kwa wiki 2 hadi 3 kabla ya kupanda tena. Usipande tena kwenye shimo moja. Tumia vitanda vilivyoinuliwa kuzuia mafuriko ya baadaye. Mwagilia vifaa vipya vya kupanda kwa dawa ya kuua kuvu kabla ya kupanda kama kinga.",
+    "treatment_ha": "Inganta fitar ruwa nan da nan — ruɓewar tushe ba zai iya yaɗuwa a cikin ƙasar da ke da kyakkyawan fitar ruwa ba. Cire tsire-tsire da aka kamu kuma ɗanɗana yankin da maganin metalaxyl ko fosetyl-aluminium fungicide. Bari wurin ya bushe na makonni 2 zuwa 3 kafin sake shuka. Kar a sake shuka a cikin rami ɗaya. Yi amfani da gadaje masu ɗaukaka don hana cika ruwa a nan gaba. Ɗanɗana kayan shuka sabon da maganin fungi kafin shuka a matsayin mataki na rigakafi.",
+    "modelLabel": "root_rot",
+    "imageRef": "assets/pests/pineapple_root_rot.jpg"
+  }
+]

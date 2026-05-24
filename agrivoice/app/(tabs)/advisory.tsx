@@ -24,6 +24,7 @@ import { router } from "expo-router";
 
 import { useAdvisory } from "@/hooks/useAdvisory";
 import { useVoice } from "@/hooks/useVoice";
+import { usePlantingCalendar } from "@/hooks/usePlantingCalendar";
 import { useCropStore } from "@/store/cropStore";
 import { useSettingsStore } from "@/store/settingsStore";
 
@@ -31,6 +32,9 @@ import { VoiceButton } from "@/components/VoiceButton";
 import { StageIndicator } from "@/components/StageIndicator";
 import { AdvisoryCard } from "@/components/AdvisoryCard";
 import { LanguagePicker } from "@/components/LanguagePicker";
+import { OfflineStatusBar } from "@/components/OfflineStatusBar";
+import { WeatherBanner } from "@/components/WeatherBanner";
+import { DosageCalculator } from "@/components/DosageCalculator";
 
 import { CROPS } from "@/constants/crops";
 import { parseVoiceCommand } from "@/services/AdvisoryEngine";
@@ -41,6 +45,10 @@ export default function AdvisoryScreen() {
 
   const { advice, spokenText, audioPath, stageProgress, isLoading, error } =
     useAdvisory();
+
+  const { stressAlert } = usePlantingCalendar(
+    stageProgress?.currentStage ?? undefined
+  );
 
   const { status, play, pause, resume, stop, startListening } = useVoice({
     onTranscript: (text) => {
@@ -139,6 +147,9 @@ export default function AdvisoryScreen() {
     <SafeAreaView style={{ flex: 1, backgroundColor: "#ffffff" }}>
       <StatusBar barStyle="light-content" backgroundColor="#2d6a4f" />
 
+      {/* Offline indicator — slim amber bar, auto-hides when online */}
+      <OfflineStatusBar />
+
       {/* Header */}
       <View
         style={{
@@ -172,6 +183,9 @@ export default function AdvisoryScreen() {
         </View>
       )}
 
+      {/* Weather stress alert banner — shown between stage bar and content */}
+      <WeatherBanner alert={stressAlert} language={language} />
+
       {/* Advisory content */}
       <ScrollView
         style={{ flex: 1 }}
@@ -201,11 +215,20 @@ export default function AdvisoryScreen() {
         )}
 
         {advice && !isLoading && (
-          <AdvisoryCard
-            advisory={advice}
-            language={language}
-            daysSincePlanting={stageProgress?.daysSincePlanting}
-          />
+          <>
+            <AdvisoryCard
+              advisory={advice}
+              language={language}
+              daysSincePlanting={stageProgress?.daysSincePlanting}
+            />
+            {/* Dosage calculator — scales quantities to farmer's field size */}
+            {advice.dosageInfo && advice.dosageInfo.length > 0 && (
+              <DosageCalculator
+                dosageInfo={advice.dosageInfo}
+                language={language}
+              />
+            )}
+          </>
         )}
       </ScrollView>
 
