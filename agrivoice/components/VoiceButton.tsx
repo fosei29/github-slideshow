@@ -75,8 +75,8 @@ export function VoiceButton({ status, onPress, size = 90 }: VoiceButtonProps) {
           transform: [{ scale: pulseAnim }],
           top: -(size * 0.25),
           left: -(size * 0.25),
+          pointerEvents: "none",
         }}
-        pointerEvents="none"
       />
 
       {/* Main button */}

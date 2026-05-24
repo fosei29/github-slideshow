@@ -52,6 +52,13 @@
       "expo-router",
       "expo-speech",
       "expo-sqlite",
+      "expo-splash-screen",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow AgriVoice to access your photo library to identify plant diseases."
+        }
+      ],
       [
         "expo-camera",
         {

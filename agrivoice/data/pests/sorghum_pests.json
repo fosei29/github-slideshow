@@ -28,5 +28,20 @@
     "treatment_ha": "Rigakafi ita ce dabara ɗaya da ke tasiri — babu magani da zarar Striga ta kafa a cikin ƙasa. Yi amfani da nau'in dawa da ke jurewa Striga (SAMSORG-17, ESH-1). Saka guga 1 na taki mai nitrogen a lokacin shuka a kowace rami — wannan yana taimaka wa dawa ta girma da sauri kuma ta fi Striga a farko. Jan Striga da hannu kafin ta fure. Shuka wake a matsayin amfanin gona na tarko a lokacin da ba kakar ba — Striga tana manne da wake amma ba za ta iya kammala zagayenta na rayuwa a kai ba. Juyawa tare da amfanin gona marasa mai masauki.",
     "modelLabel": "leaf_blight",
     "imageRef": "assets/pests/striga.jpg"
+  },
+  {
+    "id": "sorghum_aphids",
+    "crop": "sorghum",
+    "name_en": "Sorghum Aphids",
+    "name_sw": "Aphid wa Mtama",
+    "name_ha": "Aphid na Dawa",
+    "symptoms_en": "Dense colonies of small yellow-green insects clustered on leaves, stems, and grain heads. Leaves curl and yellow. Heavy infestations cause plant wilt and reduced grain fill. Aphids excrete sticky honeydew which turns black with sooty mold. Populations explode rapidly in dry weather and can appear overnight. Most damaging at heading and grain-fill stages.",
+    "symptoms_sw": "Makundi mazito ya wadudu wadogo wa kijani-njano yamekusanyika kwenye majani, mashina, na vichwa vya nafaka. Majani yanajikunjua na kugeuka njano. Msambao mkali husababisha mmea kunyauka na kupungua kwa kujaza nafaka. Aphid hutoa honeydew yenye kunata ambayo hugeuka nyeusi na kuvu. Idadi huongezeka kwa kasi katika hali ya ukame na inaweza kuonekana usiku mmoja. Uharibifu mkubwa zaidi katika hatua za kucha na kujaza nafaka.",
+    "symptoms_ha": "Ƙungiyoyin da suka yi yawa na ƙananan kwari masu rawaya-kore da suka taru a kan ganye, karar, da kansen hatsi. Ganye suna runƙuɓe kuma suna rawaya. Infestations masu yawa suna haddasa ɓullewar tsiran da rage cika hatsi. Aphid suna fitar da honeydew mai liƙawa wanda yake zama baƙi da fungus. Yawansu yana ƙaruwa cikin sauri a yanayin bushewa kuma na iya bayyana dare ɗaya. Lalacewa mafi girma a matakin da'i da cika hatsi.",
+    "treatment_en": "Spray with dimethoate (400ml per 100 litres of water) or imidacloprid. Apply early in the morning when temperatures are cool and aphids are sluggish. Leave field borders unsprayed to preserve aphid predators like ladybirds and lacewings. Do not spray if beneficial insects are already controlling the population. Heavy rains naturally reduce aphid populations — wait for rains if feasible.",
+    "treatment_sw": "Nyunyizia dimethoate (ml 400 kwa lita 100 za maji) au imidacloprid. Weka mapema asubuhi wakati halijoto ni baridi na aphid ni wavivu. Acha mipaka ya shamba bila kunyunyizia ili kuhifadhi wadudu wanaowinda aphid kama ladybird na lacewing. Usinyunyizie ikiwa wadudu wenye manufaa tayari wanadhibiti idadi. Mvua kubwa hupunguza idadi ya aphid kwa asili — subiri mvua ikiwa inawezekana.",
+    "treatment_ha": "Fesa da dimethoate (milili 400 a kowace lita 100 na ruwa) ko imidacloprid. Saka da safe lokacin da yanayin ya yi sanyi kuma aphid suna kasala. Bar iyakar gonar ba a fesa ba don adana wadudu masu cin aphid kamar ladybird da lacewing. Kada a fesa idan kwarin masu amfani sun riga sun sarrafa yawan. Ruwan sama mai yawa yana rage yawan aphid ta halitta — jira ruwa idan zai yiwu.",
+    "modelLabel": "aphids",
+    "imageRef": "assets/pests/sorghum_aphids.jpg"
   }
 ]

@@ -1,11 +1,16 @@
 /**
  * Root layout — initializes services and wraps navigation.
  * Runs once on app launch regardless of which screen opens.
+ *
+ * Pattern: SplashScreen.preventAutoHideAsync() keeps the native splash
+ * visible while bootstrap runs. The Stack is always rendered (never null)
+ * so router.replace("/onboarding") has a live navigation tree to target.
  */
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Stack, router } from "expo-router";
 import { StatusBar } from "expo-status-bar";
+import * as SplashScreen from "expo-splash-screen";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import { initDatabase, seedDatabase } from "@/services/DatabaseService";
@@ -13,9 +18,10 @@ import { initAudio } from "@/services/AudioService";
 import { registerBackgroundSync } from "@/services/SyncService";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 
-export default function RootLayout() {
-  const [ready, setReady] = useState(false);
+// Keep native splash visible until bootstrap completes
+SplashScreen.preventAutoHideAsync().catch(() => {});
 
+export default function RootLayout() {
   useEffect(() => {
     async function bootstrap() {
       try {
@@ -24,22 +30,22 @@ export default function RootLayout() {
         await initAudio();
         await registerBackgroundSync();
       } catch (e) {
+        // Bootstrap errors are non-fatal — app still works offline from bundled data
         console.warn("[Bootstrap] Startup error (non-fatal):", e);
       }
 
-      // Show onboarding on first launch
+      // Check first-launch flag — navigate to onboarding if not done
       const done = await AsyncStorage.getItem("onboarding_done");
       if (!done) {
         router.replace("/onboarding");
       }
 
-      setReady(true);
+      // Navigation decided — safe to reveal the app
+      await SplashScreen.hideAsync().catch(() => {});
     }
 
     bootstrap();
   }, []);
-
-  if (!ready) return null;
 
   return (
     <ErrorBoundary>
