@@ -126,9 +126,11 @@ export function getAdvisory(
   crop: CropId,
   plantingDate: string,
   language: SupportedLanguage,
-  location?: UserLocation
+  location?: UserLocation,
+  /** Override the auto-detected stage (e.g. to fetch pest_disease advisory) */
+  stageOverride?: GrowthStageId
 ): AdvisoryResult | null {
-  const stage = detectGrowthStage(crop, plantingDate);
+  const stage = stageOverride ?? detectGrowthStage(crop, plantingDate);
   const advisories = CROP_ADVISORIES[crop];
 
   if (!advisories) return null;

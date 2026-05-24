@@ -116,5 +116,17 @@
       }
     ],
     "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "rice_pest_disease",
+    "crop": "rice",
+    "stage": "pest_disease",
+    "advice_en": "Scout your rice field twice a week. For blast disease, look for diamond-shaped grey lesions on leaves and stems — spray fungicide immediately. For brown planthopper, check the base of plants for small brown jumping insects. Drain the field for 5 days to disrupt them. For stem borer, look for dead hearts in young plants. Remove and destroy affected plants. Record what you find so you can act faster next season.",
+    "advice_sw": "Chunguza shamba lako la mpunga mara mbili kwa wiki. Kwa ugonjwa wa blast, tafuta vidonda vya kijivu vya umbo la almasi kwenye majani na mashina - nyunyizia dawa ya kuua kuvu mara moja. Kwa nzi wa kahawia, angalia msingi wa mimea kwa wadudu wadogo wa kahawia wanaoruka. Mwaga shamba kwa siku 5 kuwazuia. Kwa borer wa shina, tafuta mioyo iliyokufa katika mimea midogo. Ondoa na uharibu mimea iliyoathirika. Rekodi unachogundua ili uweze kutenda haraka zaidi msimu ujao.",
+    "advice_ha": "Duba gonarka na shinkafa sau biyu a mako. Don cutar blast, nemi raunuka masu launin toka na siffar lu'ulu'u a ganye da karar - fesa maganin fungi nan da nan. Don brown planthopper, duba gindin tsire-tsire don ƙananan kwarin masu launin ruwan kasa masu tsalle. Zubar da gonarka na kwanaki 5 don katse su. Don bore na kara, nemi zukatan da suka mutu a tsire-tsire matasa. Cire kuma lalata tsire-tsire da aka shafa. Rubuta abin da kuka gano don ku iya aiki da sauri a kakar mai zuwa.",
+    "audio_url_en": "assets/audio/rice_pest_disease_en.mp3",
+    "audio_url_sw": "assets/audio/rice_pest_disease_sw.mp3",
+    "audio_url_ha": "assets/audio/rice_pest_disease_ha.mp3",
+    "updatedAt": "2024-01-15"
   }
 ]

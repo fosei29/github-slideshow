@@ -88,5 +88,17 @@
     "audio_url_sw": "assets/audio/sorghum_harvest_sw.mp3",
     "audio_url_ha": "assets/audio/sorghum_harvest_ha.mp3",
     "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "sorghum_pest_disease",
+    "crop": "sorghum",
+    "stage": "pest_disease",
+    "advice_en": "Scout sorghum weekly from emergence. The biggest threats are stem borer and Striga witchweed. For stem borer: look for dead hearts and round holes in stems with sawdust frass — apply granular insecticide into the whorl early. For Striga: look for small yellow or purple flowering weeds at the base of sorghum plants — pull them before they flower and set seed. Burn Striga, never compost it. Also watch for head bug damage at flowering — spray pyrethroid early morning.",
+    "advice_sw": "Chunguza mtama kila wiki tangu kuota. Vitisho vikubwa zaidi ni borer wa shina na gugu la Striga. Kwa borer wa shina: tafuta mioyo iliyokufa na mashimo ya mviringo kwenye mashina yenye frass ya vumbi la mti - weka dawa ya wadudu ya punjio ndani ya kipenyo mapema. Kwa Striga: tafuta magugu madogo ya maua ya njano au zambarau chini ya mimea ya mtama - yeng'oe kabla hayajachanua na kutoa mbegu. Teketeza Striga, usifanye kamwe mboji yake. Pia angalia uharibifu wa wadudu wa kichwa wakati wa kutoa maua - nyunyizia pyrethroid asubuhi mapema.",
+    "advice_ha": "Duba dawa kowane mako daga tsirowa. Manyan barazana sune bore na kara da ciyawar Striga. Don bore na kara: nemi zukatan da suka mutu da ramuka na da'ira a cikin karar tare da frass mai kama da ƙurar itace - saka maganin ƙwari mai granule a cikin whorl da wuri. Don Striga: nemi ƙananan ciyawa masu rawaya ko shuɗi mai ruwan hoda fure a gindin tsire-tsiren dawa - jan su kafin su fure kuma su sa iri. Ƙona Striga, kada a yi kwamfost da ita. Kuma lura da cutar kwari na kansa a lokacin fure - fesa pyrethroid da safe.",
+    "audio_url_en": "assets/audio/sorghum_pest_disease_en.mp3",
+    "audio_url_sw": "assets/audio/sorghum_pest_disease_sw.mp3",
+    "audio_url_ha": "assets/audio/sorghum_pest_disease_ha.mp3",
+    "updatedAt": "2024-01-15"
   }
 ]

@@ -1,13 +1,22 @@
 /**
  * useAdvisory — fetches current advisory for selected crop + planting date.
  * Re-runs whenever crop, plantingDate, or language changes.
+ *
+ * Fix: previously called getAdvisory() twice per render (once in load(),
+ * once outside for derived values). Now stores all derived values in a
+ * single ref so the engine runs exactly once per dependency change.
  */
 
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useRef } from "react";
 import { useCropStore } from "@/store/cropStore";
 import { useAdvisoryStore } from "@/store/advisoryStore";
 import { useSettingsStore } from "@/store/settingsStore";
-import { getAdvisory, getStageProgress, StageProgress } from "@/services/AdvisoryEngine";
+import {
+  getAdvisory,
+  getStageProgress,
+  AdvisoryResult,
+  StageProgress,
+} from "@/services/AdvisoryEngine";
 import { Advisory } from "@/types";
 
 export interface UseAdvisoryResult {
@@ -26,9 +35,15 @@ export function useAdvisory(): UseAdvisoryResult {
     useAdvisoryStore();
   const { language } = useSettingsStore();
 
+  // Single ref holds the full engine result — avoids re-running the engine
+  const engineResultRef = useRef<AdvisoryResult | null>(null);
+  const stageProgressRef = useRef<StageProgress | null>(null);
+
   const load = useCallback(() => {
     if (!selectedCrop || !plantingDate) {
       setError(null);
+      engineResultRef.current = null;
+      stageProgressRef.current = null;
       return;
     }
 
@@ -44,38 +59,30 @@ export function useAdvisory(): UseAdvisoryResult {
       );
 
       if (result) {
+        engineResultRef.current = result;
+        stageProgressRef.current = getStageProgress(selectedCrop, plantingDate);
         setCurrentAdvice(result.advisory);
       } else {
+        engineResultRef.current = null;
+        stageProgressRef.current = null;
         setError("No advisory found for this crop and stage.");
       }
-    } catch (e) {
+    } catch {
       setError("Could not load advice. Please try again.");
     } finally {
       setLoading(false);
     }
-  }, [selectedCrop, plantingDate, language, location]);
+  }, [selectedCrop, plantingDate, language, location, setCurrentAdvice, setLoading, setError]);
 
   useEffect(() => {
     load();
   }, [load]);
 
-  // Compute derived values outside the advisory store
-  let spokenText = "";
-  let audioPath = "";
-  let stageProgress: StageProgress | null = null;
-
-  if (selectedCrop && plantingDate && currentAdvice) {
-    const result = getAdvisory(selectedCrop, plantingDate, language, location ?? undefined);
-    spokenText = result?.spokenText ?? "";
-    audioPath = result?.audioPath ?? "";
-    stageProgress = getStageProgress(selectedCrop, plantingDate);
-  }
-
   return {
     advice: currentAdvice,
-    spokenText,
-    audioPath,
-    stageProgress,
+    spokenText: engineResultRef.current?.spokenText ?? "",
+    audioPath: engineResultRef.current?.audioPath ?? "",
+    stageProgress: stageProgressRef.current,
     isLoading,
     error,
     refresh: load,

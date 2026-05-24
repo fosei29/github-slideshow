@@ -2,43 +2,171 @@
   "version": 1,
   "updatedAt": "2024-01-15T00:00:00Z",
   "advisories": [
-    { "id": "maize_land_prep",      "updatedAt": "2024-01-15" },
-    { "id": "maize_planting",       "updatedAt": "2024-01-15" },
-    { "id": "maize_vegetative",     "updatedAt": "2024-01-15" },
-    { "id": "maize_flowering",      "updatedAt": "2024-01-15" },
-    { "id": "maize_harvest",        "updatedAt": "2024-01-15" },
-    { "id": "rice_land_prep",       "updatedAt": "2024-01-15" },
-    { "id": "rice_planting",        "updatedAt": "2024-01-15" },
-    { "id": "rice_vegetative",      "updatedAt": "2024-01-15" },
-    { "id": "rice_flowering",       "updatedAt": "2024-01-15" },
-    { "id": "rice_harvest",         "updatedAt": "2024-01-15" },
-    { "id": "cassava_land_prep",    "updatedAt": "2024-01-15" },
-    { "id": "cassava_planting",     "updatedAt": "2024-01-15" },
-    { "id": "cassava_vegetative",   "updatedAt": "2024-01-15" },
-    { "id": "cassava_flowering",    "updatedAt": "2024-01-15" },
-    { "id": "cassava_harvest",      "updatedAt": "2024-01-15" },
-    { "id": "pineapple_land_prep",  "updatedAt": "2024-01-15" },
-    { "id": "pineapple_planting",   "updatedAt": "2024-01-15" },
-    { "id": "pineapple_vegetative", "updatedAt": "2024-01-15" },
-    { "id": "pineapple_flowering",  "updatedAt": "2024-01-15" },
-    { "id": "pineapple_harvest",    "updatedAt": "2024-01-15" },
-    { "id": "sorghum_land_prep",    "updatedAt": "2024-01-15" },
-    { "id": "sorghum_planting",     "updatedAt": "2024-01-15" },
-    { "id": "sorghum_vegetative",   "updatedAt": "2024-01-15" },
-    { "id": "sorghum_flowering",    "updatedAt": "2024-01-15" },
-    { "id": "sorghum_harvest",      "updatedAt": "2024-01-15" }
+    {
+      "id": "maize_land_prep",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "maize_planting",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "maize_vegetative",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "maize_flowering",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "maize_harvest",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "rice_land_prep",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "rice_planting",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "rice_vegetative",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "rice_flowering",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "rice_harvest",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_land_prep",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_planting",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_vegetative",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_flowering",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_harvest",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_land_prep",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_planting",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_vegetative",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_flowering",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_harvest",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "sorghum_land_prep",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "sorghum_planting",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "sorghum_vegetative",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "sorghum_flowering",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "sorghum_harvest",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "maize_pest_disease",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "rice_pest_disease",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_pest_disease",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_pest_disease",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "sorghum_pest_disease",
+      "updatedAt": "2024-01-15"
+    }
   ],
   "pests": [
-    { "id": "fall_armyworm",        "updatedAt": "2024-01-15" },
-    { "id": "stem_borer",           "updatedAt": "2024-01-15" },
-    { "id": "maize_streak_virus",   "updatedAt": "2024-01-15" },
-    { "id": "rice_blast",           "updatedAt": "2024-01-15" },
-    { "id": "brown_planthopper",    "updatedAt": "2024-01-15" },
-    { "id": "cassava_mosaic",       "updatedAt": "2024-01-15" },
-    { "id": "cassava_mealybug",     "updatedAt": "2024-01-15" },
-    { "id": "pineapple_mealybug",   "updatedAt": "2024-01-15" },
-    { "id": "pineapple_root_rot",   "updatedAt": "2024-01-15" },
-    { "id": "sorghum_stem_borer",   "updatedAt": "2024-01-15" },
-    { "id": "striga",               "updatedAt": "2024-01-15" }
+    {
+      "id": "fall_armyworm",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "stem_borer",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "maize_streak_virus",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "rice_blast",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "brown_planthopper",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_mosaic",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "cassava_mealybug",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_mealybug",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "pineapple_root_rot",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "sorghum_stem_borer",
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "striga",
+      "updatedAt": "2024-01-15"
+    }
   ]
 }

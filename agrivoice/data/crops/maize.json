@@ -85,7 +85,6 @@
     "stage": "flowering",
     "advice_en": "Your maize is flowering. This is the most critical period — do not allow drought stress now. If rain is delayed by more than 2 weeks, irrigate if possible. Do not apply any nitrogen fertilizer at this stage. Watch for stem borer holes or damaged tassels. Remove affected plants to stop spread.",
     "advice_sw": "Mahindi yako yanachanua. Hii ni kipindi muhimu zaidi — usikubali ukame sasa. Ikiwa mvua imechelewa kwa zaidi ya wiki 2, mwagilia ikiwezekana. Usitumie mbolea yoyote ya nitrojeni katika hatua hii. Angalia mashimo ya borer wa shina au masuke yaliyoharibiwa. Ondoa mimea iliyoathirika kuzuia kuenea.",
-    "advice_sw": "Mahindi yako yanachanua. Hii ni kipindi muhimu zaidi — usikubali ukame sasa. Ikiwa mvua imechelewa kwa zaidi ya wiki 2, mwagilia ikiwezekana. Usitumie mbolea yoyote ya nitrojeni katika hatua hii. Angalia mashimo ya borer wa shina au masuke yaliyoharibiwa. Ondoa mimea iliyoathirika kuzuia kuenea.",
     "advice_ha": "Masarar ku yana fure. Wannan shine mafi mahimmancin lokaci — kar a bar shi ya bushe yanzu. Idan ruwan sama ya jinkirta fiye da makonni 2, ba da ruwa idan zai yiwu. Kada ka saka wani taki mai nitrogen a wannan mataki. Lura da ramukan bore na kara ko burin da aka lalata. Cire tsire-tsire da abin ya shafa don hana yaɗuwa.",
     "audio_url_en": "assets/audio/maize_flowering_en.mp3",
     "audio_url_sw": "assets/audio/maize_flowering_sw.mp3",
@@ -118,6 +117,18 @@
         "notes_ha": "Jakunkuna masu rufe suna hana su-su da aflatoxin ba tare da sinadarai ba."
       }
     ],
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "maize_pest_disease",
+    "crop": "maize",
+    "stage": "pest_disease",
+    "advice_en": "Check your maize every week from 2 weeks after planting. Look for: holes in leaves (fall armyworm), sawdust near stems (stem borer), yellow streaks on leaves (streak virus), and pale green aphid colonies under leaves. Act immediately when you see damage — do not wait. Early treatment costs less and saves more.",
+    "advice_sw": "Angalia mahindi yako kila wiki kuanzia wiki 2 baada ya kupanda. Tafuta: mashimo kwenye majani (viwavi vya jeshi), vumbi karibu na mashina (borer), mstari wa njano kwenye majani (virusi ya milia), na makundi ya aphid ya kijani kibichi chini ya majani. Chukua hatua mara moja unapoona uharibifu - usisubirie. Matibabu ya mapema yanagharimu kidogo na kuokoa zaidi.",
+    "advice_ha": "Duba masarar ku kowane mako daga makonni 2 bayan shuka. Nemi: ramuka a cikin ganye (tsutsayen soja), ƙuran itace kusa da karar (bore), ratin rawaya a cikin ganye (cutar layin), da ƙungiyoyin aphid na kore mai launin ƙasa ƙarƙashin ganye. Yi aiki nan da nan lokacin da kuka ga lalacewa - kada ku jira. Jiyya da wuri tana kashe ƙasa kuma tana ceton ƙari.",
+    "audio_url_en": "assets/audio/maize_pest_disease_en.mp3",
+    "audio_url_sw": "assets/audio/maize_pest_disease_sw.mp3",
+    "audio_url_ha": "assets/audio/maize_pest_disease_ha.mp3",
     "updatedAt": "2024-01-15"
   }
 ]

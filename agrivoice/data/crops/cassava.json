@@ -96,5 +96,17 @@
     "audio_url_sw": "assets/audio/cassava_harvest_sw.mp3",
     "audio_url_ha": "assets/audio/cassava_harvest_ha.mp3",
     "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "cassava_pest_disease",
+    "crop": "cassava",
+    "stage": "pest_disease",
+    "advice_en": "Inspect cassava plants monthly. The two biggest threats are cassava mosaic virus and mealybug. For mosaic: look for distorted, mosaic-patterned leaves — remove and burn any infected plant immediately, never take cuttings from it. For mealybug: check leaf bases for white cottony insects, and check if ants are present — ants protect mealybugs. Control ants first, then spray with neem oil. Whiteflies spread mosaic: spray with neem oil to slow them.",
+    "advice_sw": "Kagua mimea ya muhogo kila mwezi. Vitisho viwili vikubwa zaidi ni virusi ya mosaic ya muhogo na mealybug. Kwa mosaic: tafuta majani yaliyopotoka, yenye mfumo wa mosaic - ondoa na uchome mimea yoyote iliyoathirika mara moja, kamwe usichukue vipande kutoka kwake. Kwa mealybug: angalia misingi ya majani kwa wadudu weupe wa pamba, na angalia kama mchwa wapo - mchwa hulinda mealybug. Dhibiti mchwa kwanza, kisha nyunyizia mafuta ya neem. Nzi weupe husambaza mosaic: nyunyizia mafuta ya neem kuwapunguzia.",
+    "advice_ha": "Bincika tsire-tsiren rogo kowane wata. Manyan barazana biyu mafi girma sune cutar mosaic ta rogo da mealybug. Don mosaic: nemi ganye masu gurbatawa, masu tsarin mosaic - cire kuma ƙone kowace tsira da aka kamu nan da nan, kada a taɓa ɗauki yankan daga gare ta. Don mealybug: duba gindin ganye don kwari masu fari da auduga, kuma duba ko tururuwa suna nan - tururuwa suna kiyaye mealybugs. Sarrafa tururuwa da farko, sannan fesa da man neem. Farin ƙudaje suna yada mosaic: fesa da man neem don rage su.",
+    "audio_url_en": "assets/audio/cassava_pest_disease_en.mp3",
+    "audio_url_sw": "assets/audio/cassava_pest_disease_sw.mp3",
+    "audio_url_ha": "assets/audio/cassava_pest_disease_ha.mp3",
+    "updatedAt": "2024-01-15"
   }
 ]

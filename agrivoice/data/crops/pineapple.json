@@ -88,5 +88,17 @@
     "audio_url_sw": "assets/audio/pineapple_harvest_sw.mp3",
     "audio_url_ha": "assets/audio/pineapple_harvest_ha.mp3",
     "updatedAt": "2024-01-15"
+  },
+  {
+    "id": "pineapple_pest_disease",
+    "crop": "pineapple",
+    "stage": "pest_disease",
+    "advice_en": "Pineapple requires monthly scouting. Check the center cup of each plant for mealybug colonies — white cottony clusters with associated ants. Remove dead leaves from the plant base where mealybugs hide. Test heart rot by gently pulling the center leaves — if they come out easily, the plant has heart rot. Remove and burn affected plants and do not replant in the same spot. Ensure good drainage at all times to prevent Phytophthora root rot.",
+    "advice_sw": "Nanasi inahitaji uchunguzi wa kila mwezi. Angalia kikombe cha kati cha kila mmea kwa makundi ya mealybug - vikundi vya pamba nyeupe vyenye mchwa. Ondoa majani yaliyokufa kutoka msingi wa mmea ambapo mealybug hujificha. Jaribu kuoza kwa moyo kwa kuvuta majani ya kati kwa upole - ikiwa yanatolewa kwa urahisi, mmea una kuoza kwa moyo. Ondoa na uchome mimea iliyoathirika na usipande tena mahali pale pale. Hakikisha mifereji mizuri wakati wote kuzuia kuoza kwa mizizi ya Phytophthora.",
+    "advice_ha": "Anabas yana buƙatar sa ido kowane wata. Duba kwanon cibiyar kowace tsira don ƙungiyoyin mealybug - ƙungiyoyin auduga masu fari tare da tururuwa. Cire ganyen da suka mutu daga gindin tsiran inda mealybugs suke ɓuya. Gwada ruɓewar zuciya ta jan ganyen cibiyar a hankali - idan suka fita da sauƙi, tsiran na da ruɓewar zuciya. Cire kuma ƙone tsire-tsire da aka shafa kuma kada a sake shuka a wuri ɗaya. Tabbatar da kyakkyawan fitar ruwa koyaushe don hana ruɓewar tushen Phytophthora.",
+    "audio_url_en": "assets/audio/pineapple_pest_disease_en.mp3",
+    "audio_url_sw": "assets/audio/pineapple_pest_disease_sw.mp3",
+    "audio_url_ha": "assets/audio/pineapple_pest_disease_ha.mp3",
+    "updatedAt": "2024-01-15"
   }
 ]

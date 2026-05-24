@@ -29,30 +29,8 @@ import { useSettingsStore } from "@/store/settingsStore";
 import { CropCard } from "@/components/CropCard";
 import { LanguagePicker } from "@/components/LanguagePicker";
 import { CROP_LIST } from "@/constants/crops";
-import { CropId, UserLocation } from "@/types";
-
-const REGIONS: { label: string; value: UserLocation }[] = [
-  {
-    label: "🇰🇪 Kenya / East Africa",
-    value: { country: "Kenya", region: "East Africa", climateZone: "sub_humid" },
-  },
-  {
-    label: "🇳🇬 Nigeria / West Africa",
-    value: { country: "Nigeria", region: "West Africa", climateZone: "sub_humid" },
-  },
-  {
-    label: "🇸🇩 Sahel / Dry Region",
-    value: { country: "Niger", region: "Sahel", climateZone: "semi_arid" },
-  },
-  {
-    label: "🇪🇹 Ethiopia / Horn of Africa",
-    value: { country: "Ethiopia", region: "East Africa", climateZone: "semi_arid" },
-  },
-  {
-    label: "🇬🇭 Ghana / West Africa",
-    value: { country: "Ghana", region: "West Africa", climateZone: "sub_humid" },
-  },
-];
+import { REGIONS } from "@/constants/regions";
+import { CropId } from "@/types";
 
 export default function HomeScreen() {
   const { selectedCrop, plantingDate, location, setSelectedCrop, setPlantingDate, setLocation } =
@@ -314,7 +292,7 @@ export default function HomeScreen() {
 
           {REGIONS.map((r) => (
             <TouchableOpacity
-              key={r.label}
+              key={r.value.country}
               onPress={() => handleRegionSelect(r.value)}
               style={{
                 backgroundColor: location?.country === r.value.country ? "#2d6a4f" : "#ffffff",
@@ -328,9 +306,7 @@ export default function HomeScreen() {
                 alignItems: "center",
               }}
             >
-              <Text style={{ fontSize: 22, marginRight: 12 }}>
-                {r.label.split(" ")[0]}
-              </Text>
+              <Text style={{ fontSize: 22, marginRight: 12 }}>{r.flag}</Text>
               <Text
                 style={{
                   fontSize: 18,
@@ -338,7 +314,7 @@ export default function HomeScreen() {
                   color: location?.country === r.value.country ? "#fff" : "#1b5e3b",
                 }}
               >
-                {r.label.replace(r.label.split(" ")[0] + " ", "")}
+                {r.label}
               </Text>
             </TouchableOpacity>
           ))}
