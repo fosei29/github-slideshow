@@ -12,7 +12,6 @@ import {
 } from "react-native";
 import { Crop } from "@/types";
 import { useSettingsStore } from "@/store/settingsStore";
-import { CROPS } from "@/constants/crops";
 
 interface CropCardProps {
   crop: Crop;

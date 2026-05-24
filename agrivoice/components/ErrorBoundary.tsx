@@ -5,7 +5,6 @@
 
 import React, { Component, ReactNode, ErrorInfo } from "react";
 import {
-  View,
   Text,
   TouchableOpacity,
   SafeAreaView,

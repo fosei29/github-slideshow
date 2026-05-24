@@ -10,7 +10,6 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
-  ScrollView,
 } from "react-native";
 import { DosageInfo, SupportedLanguage } from "@/types";
 
