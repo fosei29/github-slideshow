@@ -46,9 +46,7 @@ export default function AdvisoryScreen() {
   const { advice, spokenText, audioPath, stageProgress, isLoading, error } =
     useAdvisory();
 
-  const { stressAlert } = usePlantingCalendar(
-    stageProgress?.currentStage ?? undefined
-  );
+  const { stressAlert } = usePlantingCalendar(stageProgress?.currentStage);
 
   const { status, play, pause, resume, stop, startListening } = useVoice({
     onTranscript: (text) => {

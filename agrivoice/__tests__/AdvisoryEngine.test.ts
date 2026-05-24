@@ -229,6 +229,14 @@ describe("getPestAdvisory", () => {
     expect(r).not.toBeNull();
     expect(r!.treatmentText).toBe(r!.pest.treatment_ha);
   });
+
+  it("returns aphids for sorghum", () => {
+    const r = getPestAdvisory("sorghum", "aphids", "en");
+    expect(r).not.toBeNull();
+    expect(r!.pest.name_en).toContain("Aphid");
+    expect(r!.symptomsText).toBeTruthy();
+    expect(r!.treatmentText).toBeTruthy();
+  });
 });
 
 // ─── selectText ───────────────────────────────────────────────────────────────

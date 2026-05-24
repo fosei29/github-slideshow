@@ -44,7 +44,7 @@ const MONTHS_HA = [
 export default function CalendarScreen() {
   const { selectedCrop, plantingDate, location } = useCropStore();
   const { language, setLanguage } = useSettingsStore();
-  const { weather, plantingWindow, stressAlert } = usePlantingCalendar();
+  const { weather, plantingWindow } = usePlantingCalendar();
 
   const crop = selectedCrop ? CROPS[selectedCrop] : null;
   const currentMonth = new Date().getMonth(); // 0-indexed

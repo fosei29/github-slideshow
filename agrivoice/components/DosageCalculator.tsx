@@ -54,13 +54,13 @@ export function DosageCalculator({ dosageInfo, language }: DosageCalculatorProps
 
     const low = parseFloat(match[1]);
     const high = match[2] ? parseFloat(match[2]) : null;
-    const unit = match[3];
+    const quantityUnit = match[3];
 
     const scaledLow  = (low  * acres).toFixed(1);
     const scaledHigh = high ? (high * acres).toFixed(1) : null;
 
     const scaled = scaledHigh ? `${scaledLow}–${scaledHigh}` : scaledLow;
-    return `${scaled} ${unit}`;
+    return `${scaled} ${quantityUnit}`;
   }
 
   if (!expanded) {
